@@ -3169,3 +3169,4378 @@ RWKV and state space models are alternative architectures that avoid the quadrat
 - Source: entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
 - Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
 
+
+---
+
+**Generated:** 2026-11-10
+**Source:** 115 entries from /home/forge/workspace/entries/
+**Model:** openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-alternative-names-reverse-mode-autodiff
+Backpropagation is also known as the reverse mode of automatic differentiation or reverse accumulation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-training-vs-evaluation-fixed-variable
+During training, input-output pairs are fixed while weights vary; during evaluation, weights are fixed while inputs vary.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-bias-term-as-weight-with-input-one
+In backpropagation, bias terms are not treated specially; they correspond to a weight with a fixed input of 1.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-agnostic-to-loss-and-activation-functions
+Backpropagation is agnostic to the specific loss function and activation functions, as long as they and their derivatives can be evaluated efficiently.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-term-loosely-refers-to-entire-training-process
+The term backpropagation is often used loosely to refer to the entire training process including the weight update step, even though it is strictly a gradient computation method.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] relu-addresses-vanishing-gradient-problem
+ReLU addresses vanishing gradient problems that plagued sigmoid and tanh activation functions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-loss-derivative-alternating-matrix-product
+The derivative of the loss with respect to inputs can be expressed as a product of alternating activation derivative diagonal matrices and weight matrices, evaluated right-to-left from output to input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] delta-vector-definition-per-node-cost-attribution
+In backpropagation, delta (δ^l) for layer l is a vector whose length equals the number of nodes in that layer, and each component represents the cost attributable to that node, defined as the gradient of the cost with respect to the pre-activation inputs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-transpose-of-derivative-convention
+The gradient ∇_x C is the transpose of the derivative dC/dx, which causes the matrix product in backpropagation to reverse order and transpose each weight matrix.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] single-example-two-weight-loss-surface-parabolic-cylinder
+For a linear neuron with two weights and a single training case, the squared-error loss surface is a parabolic cylinder whose minimum lies along a line, indicating multiple weight combinations achieve zero error on that example.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] weights-initialized-randomly-before-training
+Neural network weights are initialized randomly before training begins.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-reduces-to-optimization-of-loss
+In neural network training, learning reduces to an optimization problem of finding weights that minimize a loss function measuring discrepancy between predicted and target outputs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-chain-rule-decomposition-three-terms
+The gradient ∂E/∂w_ij can be factored via the chain rule into three terms: (∂E/∂o_j) · (∂o_j/∂net_j) · (∂net_j/∂w_ij).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] output-neuron-delta-formula
+For an output neuron, the error signal δ_j is computed as (o_j - t_j) · φ'(net_j), directly from the loss derivative.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] partial-net-partial-weight-equals-input-activation
+In the backpropagation derivation, ∂net_j/∂w_ij simplifies to o_i because only the term involving w_ij survives differentiation of the weighted sum.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-rate-controls-step-size-and-stability
+The learning rate η controls the step size in weight updates; too large a value causes overshooting, while too small a value causes slow convergence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] derivation-assumes-one-output-generalizes-by-summing
+The backpropagation derivation for output neurons assumes a single output neuron; multiple outputs are handled by summing over output dimensions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] second-order-backprop-involves-kronecker-delta-term
+Second-order backpropagation propagates second derivatives backward through layers and its formula includes a Kronecker delta term multiplied by f'' that appears only when the two indices are equal, reflecting the diagonal structure of the second derivative of the activation function.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-can-compute-arbitrary-order-derivatives
+Backpropagation can compute arbitrary-order derivatives in arbitrary computational graphs, though the expressions grow more complex at higher orders.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] standard-loss-mean-squared-error-formula
+The standard loss function for backpropagation in many derivations is mean squared error (MSE), defined as E = (1/2n) Σ ||y(x) - y'(x)||².
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-requires-known-activation-derivatives-at-design-time
+Backpropagation requires that activation function derivatives be known at network design time.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] input-normalization-improves-performance-not-required
+Input normalization is not required by backpropagation but can improve performance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-trouble-crossing-plateaus
+Gradient descent with backpropagation has trouble crossing plateaus in the error surface.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-early-successes-nettalk-alvinn-lenet-td-gammon
+Early successful applications of backpropagation include NETtalk (1987), ALVINN autonomous driving (1989), LeNet (1989), and TD-Gammon (1992).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] weight-matrix-left-multiply-transforms-activations-to-pre-activations
+Left-multiplying by weight matrix W^l converts output activations of layer l-1 into pre-activations of layer l.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-neuron-approximation-justified-by-local-paraboloid
+Although real networks use nonlinear activations, the error surface is locally approximable by a paraboloid, justifying the use of linear neurons for pedagogical derivations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-output-error-squared-norm
+When multiple output neurons exist, the error is the squared norm of the difference vector, i.e., sum of squared per-output errors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] forward-pass-layer-equation
+The forward pass through layer l is given by z^l = W^l a^{l-1} + b^l, followed by a^l = f^l(z^l).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] paraboloid-approximation-connects-to-second-order-optimization
+The paraboloid approximation of the error surface connects to second-order methods (Newton's method, natural gradient) and explains why gradient descent works locally.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] second-order-methods-improve-convergence-higher-cost
+Second-order optimization methods (e.g., Levenberg–Marquardt, natural gradient) can improve convergence over basic gradient descent but at higher computational cost.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] swish-and-mish-discovered-through-search
+Swish (Ramachandran et al., 2017) and Mish (Misra, 2019) are notable learned/designed activation functions discovered through search.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nobel-prize-physics-2024-hinton-neural-networks
+The Nobel Prize in Physics 2024 was awarded in connection with neural network research, recognizing Geoffrey Hinton.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] parker-1985-and-lecun-1987-independently-developed-backprop
+Parker (1985) and LeCun (1987) independently developed approaches similar to backpropagation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-differentiates-through-loss-functions
+Backpropagation differentiates through loss functions to compute gradients.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-sits-between-loss-functions-and-weight-initialization
+Backpropagation sits in the training pipeline between loss functions (which define the objective) and weight initialization/regularization (which constrain learning).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-is-foundational-to-deep-learning
+Backpropagation is foundational to deep learning, which in turn underpins language models, generative AI, and neural network architectures.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-based-optimizers-depend-on-backprop-gradients
+All gradient-based optimizers (SGD, Adam, quasi-Newton, conjugate gradient) depend on gradients computed by backpropagation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-trains-mlps-cnns-rnns-transformers-vaes-gans
+Backpropagation is used to train neural network architectures including MLPs, CNNs, RNNs/LSTMs/GRUs, Transformers, VAEs, GANs, autoencoders, and residual networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] backprop-is-prerequisite-for-modern-neural-network-architectures
+Backpropagation is prerequisite knowledge for understanding all modern neural network architectures listed in the taxonomy (Transformers, CNNs, RNNs, GANs, etc.).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Backpropagation-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Backpropagation
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bias-corresponds-to-accuracy-variance-to-precision
+Bias corresponds to accuracy (systematic offset from truth), and variance corresponds to precision (spread of predictions across different training sets).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] regularization-smooths-model-by-limiting-neighboring-influence
+Regularization (e.g., shrinkage) explicitly smooths a model to control the bias-variance tradeoff by limiting how much neighboring observations influence predictions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rbf-large-spread-high-bias-low-variance-small-spread-opposite
+In the RBF example, a large spread (e.g., 5) yields high bias and low variance, while a small spread (e.g., 0.1) yields low bias and high variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] increasing-model-complexity-decreases-bias-increases-variance
+Increasing model complexity decreases bias but increases variance (classical regime).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ideal-model-minimizes-total-error-at-intermediate-complexity
+The ideal model minimizes total error (bias² + variance + irreducible error), and the minimum total error occurs at an intermediate complexity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] four-bias-variance-quadrants-only-low-low-desirable
+The four bias-variance quadrants are (high bias, low variance), (high bias, high variance), (low bias, low variance), and (low bias, high variance); only the low bias + low variance quadrant is desirable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] data-generating-model-y-equals-f-x-plus-epsilon
+The data-generating assumption is y = f(x) + ε, where ε is zero-mean noise with variance σ² and f(x) is deterministic but unknown.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bias-is-difference-between-expected-prediction-and-true-function
+Bias is defined as the difference between the expected prediction E_D[f̂(x; D)] and the true function f(x).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] variance-measures-prediction-fluctuation-across-training-sets
+Variance measures how much the prediction f̂(x; D) fluctuates as the training set D changes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bootstrapping-approximates-expectation-over-training-sets
+Bootstrapping is a practical method for approximating the expectation over training sets D in the bias-variance decomposition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] true-function-f-x-is-deterministic
+The true function f(x) is deterministic (not random), so E[f(x)] = f(x); randomness comes from the training set D and noise ε.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bias-variance-decomposition-applies-pointwise-and-integrates-over-input-distribution
+The bias-variance decomposition applies pointwise at a fixed x; the overall MSE integrates over the input distribution P(x).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dimensionality-reduction-decreases-variance-by-simplifying-models
+Dimensionality reduction and feature selection decrease variance by simplifying models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adding-features-decreases-bias-and-increases-variance
+Adding features to a model decreases bias but increases variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] human-cognition-uses-high-bias-low-variance-heuristics
+Human cognition resolves the bias-variance dilemma by adopting high-bias, low-variance heuristics that generalize better given sparse, noisy experience.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cross-validation-tunes-bias-variance-tradeoff
+Cross-validation is used to tune models to optimize the bias-variance tradeoff.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deeper-trees-lower-bias-higher-variance
+In decision trees, deeper trees have lower bias and higher variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] more-hidden-units-lower-bias-higher-variance-classically
+In neural networks, more hidden units classically lower bias and increase variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] loess-smoothing-span-controls-bias-variance-balance
+In LOESS regression, varying the smoothing span controls the bias-variance balance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-regression-tends-high-bias-low-variance
+Linear regression tends toward high bias and low variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-networks-tend-low-bias-high-variance
+Deep networks tend toward low bias and high variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] classical-test-error-curve-is-u-shaped
+The classical bias-variance test error curve is U-shaped.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] overfitting-is-high-variance-low-bias
+Overfitting is the direct consequence of high variance and low bias, where the model memorizes training noise.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-BiasE28093variance_tradeoff-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-intersects-ai-engineering-geometry-physics-statistics
+Computer vision sits at the intersection of artificial intelligence, engineering, geometry, physics, and statistics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-inputs-include-video-lidar-and-medical-imaging
+Computer vision image data forms include video sequences, multi-camera views, LiDAR point clouds, and medical imaging.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-subdisciplines-include-scene-reconstruction-object-detection-and-tracking
+Computer vision subdisciplines include scene reconstruction, object detection, event detection, activity recognition, video tracking, object recognition, and 3D pose estimation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-1970s-contributions-include-edge-detection-optical-flow
+Computer vision contributions in the 1970s included edge detection, line labeling, optical flow, and motion estimation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-1980s-contributions-include-scale-space-and-shape-from-shading
+Computer vision contributions in the 1980s included scale-space theory, shape-from-shading, shape-from-texture, shape-from-focus, active contour models, regularization, and Markov random fields.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-1990s-contributions-include-graph-cuts-and-eigenface
+Computer vision contributions in the 1990s included graph cuts for image segmentation and Eigenface for statistical face recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-downstream-applications-include-robotics-autonomous-vehicles-medical-imaging
+Computer vision downstream applications include robotics, autonomous vehicles, medical imaging, factory automation, and augmented reality.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-sensors-detect-visible-infrared-and-uv-electromagnetic-radiation
+Image sensors detect electromagnetic radiation in the visible, infrared, and ultraviolet ranges.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-hardware-design-relies-on-quantum-physics-and-optics
+Computer vision hardware design relies on quantum physics for image sensor design and on optics for imaging systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] signal-processing-1d-methods-extend-to-multidimensional-image-signals
+Signal processing methods for 1D temporal signals extend naturally to 2D and multi-variable image signals.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-has-methods-with-no-1d-counterpart
+Computer vision has developed methods with no 1D counterpart due to the specific nature of images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] visual-computing-umbrella-includes-computer-vision-and-computer-graphics
+Visual computing is an umbrella term covering computer graphics, image processing, visualization, computer vision, VR/AR, video processing, and computational visualistics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pattern-recognition-extracts-signal-information-using-statistical-and-neural-methods
+Pattern recognition extracts information from signals using statistical methods and neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stereophotogrammetry-overlaps-computer-stereo-vision
+Stereophotogrammetry overlaps with computer stereo vision.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnns-improve-medical-imaging-disease-detection
+CNNs have notably improved disease detection in cardiology, pathology, dermatology, and radiology.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-based-methods-replace-preprogrammed-cv-solutions
+Learning-based methods are increasingly replacing pre-programmed solutions across computer vision application domains.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-enables-3d-shape-reconstruction-from-depth-maps-and-silhouettes
+Deep learning enables 3D shape generation and reconstruction from single-view or multi-view depth maps and silhouettes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] medical-cv-applications-include-tumor-detection-and-organ-measurement
+Medical computer vision applications include tumor detection, organ measurement, blood flow analysis, dental pathology, and ultrasound or X-ray noise reduction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] wafer-inspection-is-prevalent-machine-vision-application
+Wafer inspection in semiconductor manufacturing is one of the most prevalent machine vision applications.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] missile-guidance-uses-area-based-targeting-with-local-image-selection
+Missile guidance systems use area-based targeting with local image-based target selection upon arrival.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tactile-sensors-with-embedded-cameras-enable-robotic-hand-calibration
+Tactile sensors with embedded cameras and point markers enable robotic hand calibration by detecting surface micro-undulations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vision-transformers-achieve-98-4-percent-strawberry-disease-detection
+Vision transformers have been used in agricultural monitoring to achieve 98.4% accuracy in strawberry disease detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] augmented-reality-relies-on-cv-for-3d-surface-tracking
+Augmented reality relies on computer vision for 3D surface and plane tracking.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computer-vision-transforms-images-to-structured-descriptions
+Computer vision transforms visual images into structured descriptions of the world — numerical or symbolic information that can interface with other reasoning processes and drive action.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-understanding-uses-geometry-physics-statistics-learning
+Image understanding disentangles symbolic information from image data using geometry, physics, statistics, and learning theory.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scene-reconstruction-computes-3d-model-from-images
+Scene reconstruction computes a 3D model (point cloud or surface) from one or more images or video.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-restoration-removes-sensor-noise-motion-blur-lens-errors
+Image restoration recovers degraded images by removing noise such as sensor noise, motion blur, and lens errors using filters or model-based local structure analysis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-feature-extraction-includes-lines-edges-ridges-corners-blobs-interest-points
+Computer vision feature extraction includes lines, edges, ridges, corners, blobs, and interest points.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-high-level-processing-includes-model-verification-parameter-estimation-recognition-registration
+Computer vision high-level processing includes model verification, parameter estimation (pose, size), image recognition, and image registration.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-decision-making-outputs-pass-fail-match-no-match-human-review-flag
+Computer vision decision making produces outputs such as pass/fail, match/no-match, or flag for human review.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scale-space-representation-used-in-cv-preprocessing
+Scale space representation is a key pre-processing technique in computer vision linked to multi-scale feature detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] imagenet-ilsvrc-has-1000-classes-1-2m-training-images
+ImageNet (ILSVRC) is a standard large-scale image classification benchmark with 1000 classes and approximately 1.2 million training images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] flownet2-applies-deep-networks-to-optical-flow
+FlowNet 2.0 (Ilg et al., 2016) demonstrates deep networks applied to optical flow estimation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnns-used-in-speech-recognition-bioinformatics-time-series
+CNNs are used across computer vision, speech recognition, bioinformatics, and time series analysis (Chervyakov et al., 2020).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cvpr-iccv-eccv-premier-cv-conferences
+CVPR, ICCV, and ECCV are premier computer vision conferences where most cited work appears.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trackdem-r-package-tracks-particles-from-video
+The trackdem R package (Bruijning et al., 2018) performs automated particle tracking from video for ecological population counting.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] movidius-myriad-2-is-a-vpu-for-real-time-cv
+The Movidius Myriad 2 is a Vision Processing Unit (VPU) used for real-time computer vision, AR, and VR workloads.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-medical-cv-applied-in-radiology-pathology-dermatology
+Deep learning-enabled medical computer vision has been applied in radiology, pathology, and dermatology (Esteva et al., 2021; Li et al., 2023).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-core-subproblems-include-object-detection-segmentation-optical-flow-3d-shape
+Core computer vision sub-problems include object detection, image segmentation, optical flow estimation, 3D shape synthesis, action localization, stereo vision, and scene recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rosenfeld-kak-1982-digital-picture-processing
+Rosenfeld & Kak's 'Digital Picture Processing' (1982) formalized digital image analysis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lindeberg-1994-formalized-multi-scale-image-representation
+Lindeberg (1994) formalized multi-scale image representation in scale-space theory, which is foundational to feature detection such as SIFT.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] horn-1986-bridged-computer-vision-and-robotics
+Horn (1986) bridged computer vision and robotics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] szeliski-2010-modern-comprehensive-cv-reference
+Szeliski (2010) is a modern comprehensive computer vision reference covering algorithms and applications end-to-end.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] modern-cv-relies-on-pytorch-tensorflow-jax
+Modern computer vision deep learning relies on differentiable programming frameworks such as PyTorch, TensorFlow, and JAX.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cv-taxonomy-includes-3d-reconstruction-object-recognition-segmentation-motion-analysis-feature-detection-image-restoration
+The computer vision taxonomy includes 3D reconstruction, object recognition, segmentation, motion analysis, feature detection, and image restoration as major sub-areas.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] 3d-reconstruction-connects-to-slam-nerf-gaussian-splatting-visual-hull
+3D reconstruction in computer vision connects to structure from motion, simultaneous localization and mapping (SLAM), Gaussian splatting, neural radiance fields (NeRF), and visual hull methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gpu-tpu-ipu-computing-enables-real-time-cv
+GPU, TPU, and IPU computing enables real-time computer vision, and NVIDIA GPU containers are widely adopted for research.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Computer_vision-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Computer_vision
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-learns-features-through-filter-kernel-optimization
+A convolutional neural network (CNN) is a feedforward neural network that learns features through filter (kernel) optimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-shift-invariant-space-invariant-names
+CNNs are also called shift invariant or space invariant artificial neural networks due to their shared-weight architecture.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-convolution-dot-product-kernel-input-feature-map
+A CNN convolution operation computes the dot product (Frobenius inner product) of a convolution kernel with the layer's input matrix, generating a feature map that feeds into the next layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-receptive-field-restricted-local-input
+In a CNN, each neuron receives input from only a restricted area of the previous layer, and deeper layers have progressively larger effective receptive fields.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-feature-hierarchy-local-to-global
+CNN lower layers extract local features from narrow context windows, while higher layers extract features from wider context windows.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-shared-weights-mitigate-vanishing-exploding-gradients-overfitting
+CNN shared weights and reduced connectivity inherently help prevent vanishing/exploding gradients and overfitting compared to fully connected networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-learns-filters-automatically-not-hand-engineered
+CNNs learn optimal filters through training rather than relying on hand-engineered features.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-pooling-takes-max-average-pooling-takes-mean
+In CNN pooling layers, max pooling takes the maximum value of a local cluster while average pooling takes the mean.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] simple-cells-respond-to-oriented-edges-complex-cells-position-insensitive
+In the visual cortex, simple cells respond maximally to straight edges at particular orientations, while complex cells have larger receptive fields and are position-insensitive.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mlp-curse-of-dimensionality-3-million-weights-per-neuron
+In a multilayer perceptron, a 1000x1000 RGB image yields 3 million weights per fully-connected neuron, making it computationally intractable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neocognitron-s-layers-became-convolutional-c-layers-became-pooling
+The Neocognitron's S-layers became modern convolutional layers and its C-layers became pooling layers, with backpropagation replacing local unsupervised training.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tdnn-is-1d-cnn-with-weight-sharing-along-time-axis
+A Time Delay Neural Network (TDNN) is a 1D CNN with weight sharing along the time axis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fukushima-1969-introduced-homogeneous-weight-sharing
+Fukushima in 1969 introduced the concept of homogeneous weight sharing across a layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-practical-breakthroughs-required-gpu-speedups-2000s
+CNNs were invented in the 1980s, but practical breakthroughs required GPU implementations starting in the 2000s, with 4-60x speedups over CPU (20x in 2004, 60x by 2011).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] convolutional-layer-produces-activation-maps
+A convolutional layer slides learnable filters (kernels) across the input, computing dot products to produce 2D activation maps, and stacking all filter activation maps along the depth dimension forms the output volume.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] convolutional-output-hyperparameters-depth-stride-padding
+The output size of a convolutional layer is controlled by three hyperparameters: depth (number of filters), stride (step size), and padding (zero-padding on borders).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pooling-layer-nonlinear-downsampling
+Pooling layers are non-linear downsampling operations that reduce spatial dimensions while retaining important information, reducing parameters, memory, computation, and helping control overfitting.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-pooling-outperforms-average-pooling
+Max pooling outperforms average pooling in practice.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] relu-applied-after-conv-before-pooling
+ReLU activation is typically applied after each convolutional layer and before pooling.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fully-connected-layer-affine-transformation
+A fully connected layer connects every neuron to all activations in the previous layer and computes an affine transformation (matrix multiply plus bias).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-typical-layer-pipeline
+A typical CNN pipeline stacks convolutional layers, pooling layers, fully connected layers, and a loss layer in that order.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] padding-zero-valued-pixels-edge-receptive-fields
+Padding adds 0-valued pixels to image borders so edge pixels participate in multiple receptive fields rather than being undervalued.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stride-shifts-convolution-window
+Stride is the number of pixels the convolution window shifts per iteration; a stride of 2 offsets each kernel by 2 pixels from its predecessor.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] filter-count-increases-with-depth
+CNN layers near the input have fewer filters and deeper layers have more, with the product of feature values and pixel positions kept roughly constant across layers to equalize computation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-filter-sizes-practice
+In practice CNN filter sizes range from 1x1 to 7x7; AlexNet used 3x3, 5x5, and 11x11, while InceptionV3 used 1x1, 3x3, and 5x5.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] max-pooling-2x2-nonoverlapping-standard
+Max pooling with 2x2 non-overlapping windows is typical, and larger pooling risks unacceptable information loss.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] early-stopping-simplest-regularization
+Early stopping halts training before overfitting occurs; it is the simplest regularization method but sacrifices potential learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] data-augmentation-since-mid-1990s
+Data augmentation such as cropping, rotation, and rescaling has been used since the mid-1990s to combat overfitting in CNNs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-map-count-controls-capacity
+The number of feature maps controls CNN capacity and should balance with available training data and task complexity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-fails-small-thin-filter-distorted
+CNNs struggle with small or thin objects and filter-distorted images, but excel at fine-grained classification such as dog breeds and bird species where humans are weaker.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-nlp-nonsequential-context
+CNNs capture non-sequential contextual patterns in NLP, complementing RNNs which model sequential dependencies, and are effective for semantic parsing, sentence classification, and search query retrieval.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] visual-saliency-attention-interpretability
+Visual saliency, spatial attention, and temporal attention mechanisms can highlight which regions or time instants drive CNN predictions for interpretability in safety-critical systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] convolutional-deep-belief-networks
+Convolutional Deep Belief Networks (CDBN) merge CNN spatial structure with deep belief network pre-training for image and signal processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neural-abstraction-pyramid-lateral-feedback
+The Neural Abstraction Pyramid extends feed-forward CNNs with lateral and feedback connections for recurrent processing, resolving local ambiguities iteratively.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] blondie24-checkers-coevolution
+Blondie24 was a CNN that learned checkers via co-evolution without human game data and ranked in the top 0.4% against human players.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] atomnet-2015-drug-design
+AtomNet (2015) was the first deep learning system for structure-based drug design, learning 3D chemical interaction features.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tensorflow-platforms-apache-license
+TensorFlow is a Python CNN library supporting CPU, GPU, TPU, and mobile execution and is released under the Apache 2.0 license.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] convolutional-layer-named-for-convolution-operation
+The term 'convolutional layer' derives from the mathematical convolution operation it performs, sliding a kernel across the input and computing element-wise products.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-classification-categorical-outputs
+CNNs for classification produce categorical predictions, i.e., discrete class labels rather than continuous values.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] convolution-generalizes-to-structured-domains
+Convolutions generalize to arbitrary structured domains such as graphs and manifolds, linking CNNs to graph neural networks and geometric deep learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] zhang-1988-shift-invariant-network
+Zhang (1988, 1990) introduced shift-invariant pattern recognition neural networks with local space-invariant interconnections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lecun-bengio-hinton-2015-deep-learning-definition
+LeCun, Bengio, and Hinton's 2015 Nature review defined deep learning as representation learning with multiple levels of abstraction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dilated-convolutions-multiscale-context
+Yu and Koltun (2016) introduced dilated (atrous) convolutions for multi-scale context aggregation without losing resolution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] chen-2017-dilated-conv-semantic-segmentation
+Chen et al. (2017) extended dilated convolutions for semantic segmentation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lenet5-architecture
+LeNet-5 follows the architecture conv → pool → conv → pool → fully connected → output.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ciresan-2012-multicolumn-cnn-mnist
+Ciresan et al. (2012) used multiple parallel CNN columns with averaged outputs and achieved near-human performance on MNIST.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] alexnet-relu-dropout-gpu
+AlexNet was a deep CNN that used ReLU, dropout, and GPU training for ImageNet classification.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] swish-activation-search-2017
+Ramachandran et al. (2017) performed an automated search for activation functions, producing Swish as a complement to ReLU.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-primary-computer-vision-applications
+CNNs are primarily associated with computer vision applications such as image classification, object detection, and facial recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cs231n-stanford-cnn-visual-recognition-course
+CS231n is a Stanford course on CNNs for visual recognition by Andrej Karpathy.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conv-arithmetic-visualizes-padding-stride-dilation
+conv_arithmetic is a GitHub resource that provides visual animations of convolution operations with different padding, stride, and dilation configurations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-discriminator-networks-often-cnns
+GAN discriminator networks are often CNNs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnn-spatial-rnn-sequential-transformers-both
+CNNs are primarily used for spatial data such as images and video, RNNs/LSTMs for sequential data, and Transformers for both via attention.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Convolutional_neural_network-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Convolutional_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dl-learning-paradigms-supervised-semi-supervised-unsupervised
+Deep learning methods can be supervised, semi-supervised, or unsupervised.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neural-networks-inspired-not-accurate-brain-models
+Neural networks are inspired by biological systems but are not intended as accurate models of brain function.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnn-cap-depth-potentially-unlimited
+For RNNs, Credit Assignment Path depth is potentially unlimited because signals can propagate through a layer more than once.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-multilayer-classification-regression-representation
+Deep learning uses multilayered neural networks to perform classification, regression, and representation learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fnn-no-cycles-rnn-cycles-connectivity
+Feedforward neural networks have no cycles in connectivity, while recurrent neural networks have cycles that enable sequence processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fukushima-relu-1969
+Kunihiko Fukushima introduced the ReLU activation function in 1969.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] perceptron-1958-rosenblatt-three-layer-mlp
+Rosenblatt's 1958 Perceptron was a 3-layer MLP with input, random hidden, and output layers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] schmidhuber-1991-artificial-curiosity-zero-sum
+Schmidhuber's 1991 artificial curiosity used two networks in a zero-sum game, a principle reused in GANs in 2014.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] raina-2009-gpu-training-70x
+Raina, Madhavan, and Ng (2009) demonstrated 70x faster training with GPUs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] graves-2006-ctc-stacked-lstm
+Graves et al. (2006) combined connectionist temporal classification (CTC) with stacked LSTMs for sequence labeling tasks such as handwriting recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lstm-google-speech-49-percent-2015
+LSTM-based speech recognition improved Google's accuracy by 49% in 2015.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ann-neuron-state-synapse-weights
+Artificial neurons have state typically represented as real numbers between 0 and 1; synapses transmit signals and weights modulate signal strength and are adjusted during learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnn-compositional-modeling-reduces-units
+In deep neural networks, extra layers allow features to be composed from lower-layer primitives, potentially requiring fewer units than an equivalent shallow network.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnn-overfitting-rare-dependencies
+Additional layers of abstraction allow DNNs to model rare dependencies in training data, making DNNs especially prone to overfitting.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cmac-converges-one-step-linear-training
+CMAC (Cerebellar Model Articulation Controller) is an alternative neural network that converges in one step, requires no learning rate or randomized initial weights, and has linear training complexity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] photonic-accelerators-wdm-trillions-mac
+Photonic hardware accelerators offer massively parallel data transfer via wavelength division multiplexing and data modulation speeds capable of trillions of multiply-accumulate operations per second.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tpu-npu-cerebras-purpose-built-dl-processors
+TPUs (Google), NPUs (Huawei), and Cerebras WSE-2 are purpose-built deep learning processors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batching-gradients-speeds-training
+Batching, or computing gradients on multiple examples at once, speeds up training computation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] timit-630-speakers-8-dialects-10-sentences
+The TIMIT dataset contains 630 speakers, 8 American English dialects, and 10 sentences per speaker, and is a standard benchmark for phone-sequence recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] timit-per-26-to-16-5
+On TIMIT, phone error rate dropped from approximately 26% with a random RNN to approximately 16.5% with hierarchical convolutional deep maxout networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] word2vec-maps-words-to-vector-space
+Word embedding such as word2vec transforms atomic words into vector-space positions relative to other words and serves as an input layer enabling compositional vector grammars in RNNs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sentence-embedding-generalizes-word-embedding
+Sentence embedding generalizes word embedding from individual words to entire sentences.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] njee-dnn-entropy-estimator-softmax-alphabet
+The Neural Joint Entropy Estimator (NJEE) uses DNNs as classifiers to estimate the entropy of stochastic processes, with a softmax output layer sized to the alphabet of the target variable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] njee-requires-differentiable-activations
+NJEE requires continuously differentiable activation functions for the universal approximation theorem.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] epigenetic-clock-dnn-6000-blood-samples
+An epigenetic clock using DNNs trained on 6,000+ blood samples and 1,000 CpG sites predicts biological age and detects accelerated aging in IBD, frontotemporal dementia, ovarian cancer, and obesity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] atomnet-structure-based-drug-design
+AtomNet is a structure-based rational drug design system applied to Ebola and multiple sclerosis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-architectures-mirror-neocortical-development-theories
+Deep learning architectures mirror early-1990s theories of neocortical development in which hierarchical layered filters process information sequentially, analogous to neocortex self-organization under waves of trophic factors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-representations-resemble-primate-visual-system
+Deep learning representations resemble those measured in the primate visual system at both single-unit and population levels.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] alphago-2015-beat-professional-go-players
+DeepMind's AlphaGo beat professional Go players in 2015.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] google-translate-neural-networks-100-plus-languages
+Google Translate uses neural networks to translate more than 100 languages.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adversarial-arms-race-ann-detection-vs-genetic-algorithm-malware
+Artificial neural networks can be trained to detect adversarial attacks, but attackers using genetic algorithms can co-evolve malware to bypass ANN-based defenses.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-defined-layer-wise-feature-hierarchy-learning
+Schulz and Behnke (2012) define deep learning as layer-wise learning of feature hierarchies.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rosenblatt-perceptron-1958-first-trainable-neural-network
+Rosenblatt's Perceptron (1958) was the first trainable neural network.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] minsky-papert-exposed-single-layer-perceptron-limitation
+Minsky and Papert later exposed the single-layer limitation of the Perceptron.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] alphago-2017-defeated-ke-jie
+AlphaGo defeated world champion Ke Jie in 2017.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] swish-activation-search-learned-activations-outperform-hand-designed
+Ramachandran et al. (2017) showed that learned activation functions such as Swish can outperform hand-designed activation functions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] associative-memory-lineage-associatron-hopfield-boltzmann-dbn
+The associative memory lineage runs from Nakano's Associatron (1971–1972) through Amari's self-organizing nets (1972) and Hopfield networks (1982) to Boltzmann machines and deep belief networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] generative-ai-categorized-by-modality-text-image-video-speech-music
+Generative AI is categorized by modality into text, image, video, speech, and music, each with distinct model families.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mcp-and-agent2agent-emerging-ai-agent-interaction-standards
+Model Context Protocol (MCP) and Agent2Agent protocol are interaction standards for AI agent systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rag-bridges-deep-learning-models-with-external-knowledge-bases
+Retrieval-augmented generation (RAG) bridges deep learning models with external knowledge bases.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] four-canonical-deep-learning-textbooks
+Four canonical deep learning textbooks are Goodfellow, Bengio & Courville (2016) Deep Learning, Prince (2023) Understanding Deep Learning, Bishop & Bishop (2024) Deep Learning: Foundations and Concepts, and Chollet & Watson (2025) Deep Learning with Python.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ian-goodfellow-associated-with-gans
+Ian Goodfellow is associated with generative adversarial networks (GANs).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ashish-vaswani-associated-with-transformer
+Ashish Vaswani is associated with the Transformer architecture.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Deep_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Deep_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-engineering-principles-extend-to-physics-dimensionless-numbers
+Feature engineering principles extend beyond machine learning into physics, where constructing dimensionless numbers such as the Reynolds number improves analysis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-creation-constructs-new-features-from-existing-data
+Feature creation constructs new features from existing data, such as ratios, aggregations, and interactions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-transformation-includes-imputing-missing-invalid-values
+Feature transformation modifies features and includes imputing missing or invalid values.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-selection-uses-importance-scores-and-correlation-matrices
+Feature selection chooses the most relevant features based on importance scores and correlation matrices.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mcmd-mines-common-clustering-across-multiple-datasets
+MCMD (Multi-view Classification based on Consensus Matrix Decomposition) mines common clustering schemes across multiple datasets and handles missing data, identifies outliers, and works with high-dimensional data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] onebm-combines-feature-transformations-and-selection-on-relational-data
+OneBM (One-Button Machine) combines feature transformations and feature selection on relational data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] getml-community-60x-faster-than-alternatives-for-automated-feature-engineering
+getML community is a C/C++ with Python interface automated feature engineering tool shown to be 60x+ faster than alternatives on time series and relational data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tsflex-faster-than-tsfresh-seglearn-tsfel
+tsflex is a fast, memory-efficient time series feature extraction library that is faster than tsfresh, seglearn, and tsfel.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] featuretools-open-source-python-automated-feature-engineering-dfs
+Featuretools is an open-source Python framework for automated feature engineering via deep feature synthesis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] getml-automated-feature-engineering-for-relational-data
+getML is an automated feature engineering tool for relational data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tsfresh-time-series-feature-extraction-scalable-hypothesis-tests
+tsfresh is a time series feature extraction library based on scalable hypothesis tests.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kats-facebook-time-series-analysis-toolkit
+Kats is Facebook's time series analysis toolkit.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-relational-feature-engineering-handles-multiple-database-tables
+Multi-relational feature engineering addresses learning across multiple database tables or relations using aggregation functions and cross-mine approaches.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multirelational-learning-handles-features-across-joined-tables-without-flattening
+Multi-relational learning methods such as CrossMine and multi-relational decision trees handle features spread across multiple joined tables without flattening them into a single table first.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] canonical-feature-engineering-textbooks-hastie-shalev-shwartz-murphy
+Canonical feature engineering and machine learning textbooks include Hastie/Tibshirani/Friedman's Elements of Statistical Learning, Shalev-Shwartz/Ben-David's Understanding Machine Learning, and Murphy's Probabilistic Machine Learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] time-series-feature-extraction-libraries-tsfresh-tsflex-seglearn-tsfel-kats
+Time series feature extraction has dedicated libraries including tsfresh, tsflex, seglearn, TSFEL, and Kats.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Feature_engineering-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Feature_engineering
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-generator-maps-latent-to-data
+The GAN generator maps from a latent space, such as a multivariate normal distribution, to the data distribution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-discriminator-outputs-probability-real
+The GAN discriminator outputs values near 1 for real data and near 0 for generated data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-independent-backpropagation-both-networks
+During GAN training, backpropagation is applied independently to the generator and the discriminator.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-learning-paradigm-flexibility
+Although originally proposed for unsupervised learning, GANs are also applicable to semi-supervised, fully supervised, and reinforcement learning settings.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-objective-log-loss-formula
+The GAN objective is L(μ_G, μ_D) = E_{x ~ μ_ref, y ~ μ_D(x)}[ln y] + E_{x ~ μ_G, y ~ μ_D(x)}[ln(1 − y)].
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-game-strategy-sets-probability-measures-markov-kernels
+In the measure-theoretic GAN game, the generator's strategy set is all probability measures on (Ω, B), and the discriminator's strategy set is Markov kernels mapping (Ω, B) to P([0,1]).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-optimal-discriminator-posterior-probability
+If the prior probability of an image coming from the reference versus the generator is 1/2 each, then the optimal discriminator D*(x) is exactly the posterior probability that x came from the reference distribution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-minimax-theorem-inapplicable-infinite-strategy-sets
+The classical minimax theorem does not directly apply to the original GAN game because both strategy sets are infinite-dimensional, so move order matters in principle.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-objective-cross-entropy-kl-decomposition
+The GAN objective integrates the negative cross-entropy between Bernoulli variables with parameters ρ_ref(x) and D(x), decomposable as −H(ρ_ref(x)) − D_KL(ρ_ref(x) ‖ D(x)).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-generator-pushforward-measure
+In practice, the generator distribution is implemented as a pushforward measure μ_G = μ_Z ∘ G⁻¹ by sampling z from a simple prior and applying a learned function G.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] helvetica-scenario-goodfellow-term-mode-collapse
+Goodfellow's original term for mode collapse is the 'Helvetica scenario'.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-curriculum-learning-stabilizes-convergence
+Curriculum learning for GANs starts with easier tasks such as low-resolution or simple images and gradually increases difficulty to stabilize convergence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lpips-finetuned-human-perceptual-judgments
+LPIPS fine-tunes a featurizer f_θ on human perceptual difference judgments so that ‖f_θ(x) − f_θ(x')‖ approximates perceptual_difference(x, x').
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] biggan-2019-did-not-fully-solve-mode-collapse
+BigGAN (2019), state-of-the-art at the time, could not fully solve mode collapse, and its authors allowed mode collapse to occur in later training stages.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cgan-provides-class-labels-to-both-networks
+A conditional GAN (cGAN) provides class labels to both the generator and discriminator so that the generator produces a different distribution μ_G(c) for each class label c.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sagan-adds-self-attention-to-dcgan
+SAGAN adds residually-connected self-attention modules to DCGAN, enabling the model to capture long-range spatial dependencies.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transgan-pure-transformer-no-convolutions
+TransGAN uses a pure transformer architecture for both generator and discriminator with no convolutions at all.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] flow-gan-uses-flow-generator-tractable-likelihood
+Flow-GAN uses a flow-based generative model as the generator, enabling tractable likelihood computation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] least-squares-gan-recommended-parameters
+Least squares GAN replaces the log loss with squared error and recommends parameters a=−1, b=1, c=0.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-transfer-learning-aligns-latent-feature-spaces
+GANs can perform transfer learning by feeding source and target task embeddings to the discriminator, which tries to distinguish context, and inversely backpropagating the resulting loss through the encoder to align latent feature spaces.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] darpa-media-forensics-studies-gan-fake-countermeasures
+The DARPA Media Forensics program studies countermeasures against GAN-generated fake media.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gamegan-2020-recreates-pac-man-from-gameplay
+Nvidia researchers' 2020 GameGAN system was trained to recreate Pac-Man solely by watching gameplay.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gan-generated-molecules-validated-in-mice
+GAN-generated molecules have been experimentally validated in mice, demonstrating real-world drug discovery applicability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adversarial-framework-used-in-control-theory-2006
+The adversarial framework extends beyond generative modeling and was used in control theory in 2006 to train robust controllers via alternating minimizer/maximizer policies.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] salimans-2016-improved-gan-training-techniques
+Salimans et al. (2016) introduced 'Improved Techniques for Training GANs' to address GAN training stability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] least-squares-gan-mao-2017
+Least Squares GAN (Mao et al., 2017) is a GAN loss function variant.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lpips-zhang-2018-gan-evaluation-metric
+Learned Perceptual Image Patch Similarity (LPIPS) was introduced by Zhang et al. (2018) as a GAN evaluation metric.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] progressive-growing-gans-karras-2017
+Karras et al. (2017) introduced progressive growing of GANs for stable high-resolution synthesis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] singan-single-image-shaham-2019
+SinGAN (Shaham et al., 2019) trains a GAN from a single image.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] flow-gan-combines-normalizing-flows
+Flow-GAN (Grover et al., 2017) combines normalizing flows with adversarial training.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sagan-adds-self-attention
+SAGAN (Zhang et al., 2019) adds self-attention to a GAN architecture.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] calogan-particle-physics-simulation
+CaloGAN is a GAN application for particle physics simulation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stylegan-style-based-generator-architecture
+StyleGAN is a style-based generator architecture by Karras, Laine, and Aila, documented in arXiv:1812.04948.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] this-person-does-not-exist-gan-demo
+This Person Does Not Exist is a GAN demonstration project for human image synthesis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] wang-she-ward-2019-gan-survey
+Wang, She, and Ward (2019) published a GAN survey in computer vision (arXiv:1906.01529).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deepfakes-are-gan-application
+Deepfakes are a real-world application of GAN technology.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Generative_adversarial_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Generative_adversarial_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-ascent-positive-gradient-direction
+Gradient ascent steps in the positive gradient direction to maximize a function.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-unconstrained-optimization
+Gradient descent applies to unconstrained optimization problems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sgd-extension-gradient-descent-deep-networks
+Stochastic gradient descent (SGD) is a simple extension of gradient descent and the most basic algorithm for training deep networks today.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] method-of-steepest-descent-distinct-analytical-method
+The method of steepest descent is a distinct analytical method from gradient descent despite the name overlap.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] momentum-adam-rmsprop-first-order-methods
+Momentum, Adam, and RMSProp are gradient-based first-order optimization methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-monotonic-decrease-small-step
+For sufficiently small step size, gradient descent produces a monotonically decreasing sequence of function values f(x0) >= f(x1) >= f(x2) >= ...
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-step-size-can-vary-per-iteration
+The gradient descent step size eta can vary at every iteration.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-rate-tradeoff-slow-vs-divergence
+A too-small learning rate causes slow convergence, while a too-large learning rate causes overshoot and divergence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] line-search-wolfe-backtracking-step-size
+Line search methods such as Wolfe conditions or backtracking line search choose gradient descent step sizes adaptively.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-can-converge-to-saddle-points
+Gradient descent can converge to saddle points in non-convex problems, not just local minima.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] steepest-descent-linear-system-spd-unique-minimum
+The quadratic reformulation of Ax=b requires A to be symmetric positive-definite for a unique minimum.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] general-linear-least-squares-ata-psd
+For a general matrix A, the least-squares gradient descent formulation works with A^T A, which is always positive semi-definite.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] steepest-descent-incremental-residual-update
+In steepest descent for linear systems, the residual can be updated incrementally as r := r - eta * A * r, avoiding a second matrix-vector multiplication per iteration.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] preconditioning-benefits-steepest-descent-and-conjugate-gradient
+Both steepest descent and conjugate gradient for linear systems benefit from preconditioning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] steepest-descent-applied-to-wiener-filter-adaptive-filtering
+Steepest descent is applied to adaptive filtering problems such as the Wiener filter.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-least-squares-normal-equations
+The general-case gradient descent formulation for linear systems connects to the normal equations A^T A x = A^T b.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-line-search-selects-step-size
+Line search algorithms select the gradient descent step size η at each iteration to ensure f(x^(k+1)) <= f(x^(k)).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-preconditioning-circular-level-sets
+Preconditioning reshapes a function's level sets to be more circular to cure slow convergence from ill-conditioning, but constructing the preconditioner is computationally expensive.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-projected-gradient-constraints
+Projected gradient descent handles constraints by projecting onto the feasible set after each gradient step and is a special case of the forward-backward algorithm.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-proximal-gradient-extends-nonsmooth
+The proximal gradient method extends gradient descent to constrained or non-smooth problems, and its accelerated variant is the fast proximal gradient method (FPGM).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-frechet-derivative-infinite-dimensions
+Gradient descent generalizes to arbitrary and infinite-dimensional spaces via the Fréchet derivative, with steepest descent when the update is colinear with the gradient by the Cauchy-Schwarz inequality.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-conjugate-gradient-heavy-ball-quadratic-bound
+The heavy ball method achieves asymptotically the same convergence bound as the conjugate gradient method for unconstrained quadratic minimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-barzilai-borwein-step-size
+The Barzilai-Borwein method (1988) provides a two-point step size rule as an alternative to line search in gradient descent.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-backtracking-wolfe-step-conditions
+Backtracking line search and Wolfe conditions are step-size selection strategies that enforce sufficient decrease and curvature conditions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-conjugate-gradient-conjugate-directions
+The conjugate gradient method accelerates convergence for quadratic objectives by choosing conjugate directions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-looser-assumptions-weaken-convergence
+Relaxing convexity or smoothness assumptions in gradient descent analysis either yields slower convergence rates or requires adaptive or sophisticated step-size strategies such as line search.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gd-sgd-uses-minibatches
+Stochastic gradient descent (SGD) is a stochastic variant of gradient descent that uses mini-batches.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-ai-ml-unconstrained-category
+Gradient descent is categorized under both AI/ML concepts and unconstrained nonlinear optimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gradient-descent-ai-parameter-optimization-family
+Within AI, gradient descent is grouped with SGD, quasi-Newton methods, conjugate gradient, and backpropagation as parameter optimization methods used in training.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] metaheuristics-derivative-free-alternatives
+Metaheuristics such as simulated annealing, evolutionary algorithms, and tabu search are derivative-free alternatives used when gradients are unavailable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] trust-regions-wolfe-conditions-convergence
+Convergence conditions for gradient-based methods include trust regions and Wolfe conditions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] policy-gradient-is-rl-application-of-gradient-descent
+Policy gradient is a reinforcement learning application of gradient descent.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Gradient_descent-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Gradient_descent
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-learning-surpassed-earlier-ml-performance
+Deep learning (neural networks) has surpassed many earlier machine learning approaches in performance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hebbian-learning-1949
+Donald Hebb's 1949 book The Organization of Behavior introduced Hebbian learning theory.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cybertron-raytheon-1960s-rl
+Cybertron (Raytheon) was an early 1960s learning machine that used reinforcement learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-algorithm-family
+Supervised learning includes decision trees, ensembles, k-NN, linear regression, Naive Bayes, neural networks, logistic regression, perceptron, RVM, and SVM.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unsupervised-dimensionality-reduction-algorithms
+Unsupervised dimensionality reduction methods include factor analysis, CCA, ICA, LDA, NMF, PCA, PGD, t-SNE, and SDL.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] reinforcement-learning-algorithms
+Reinforcement learning key algorithms include Q-learning, policy gradient, SARSA, temporal difference, multi-agent learning, and self-play.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] anomaly-detection-algorithms
+Anomaly detection algorithms include RANSAC, k-NN, Local Outlier Factor, and Isolation Forest.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-emerged-from-ai-1990s-statistical-shift
+Machine learning emerged from AI research but became its own field in the 1990s, shifting from symbolic or knowledge-based approaches to statistical and probabilistic methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistics-population-inference-vs-ml-predictive-patterns
+Statistics draws population inferences from samples, while machine learning finds generalizable predictive patterns.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pac-learning-produces-probabilistic-bounds
+Computational learning theory using the PAC model typically produces probabilistic bounds rather than deterministic guarantees.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pac-learnability-polynomial-time-positive-negative
+In computational learning theory, positive results show a function class is learnable in polynomial time, while negative results show certain classes are not.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kmeans-lossy-compression
+k-means clustering can be used for lossy data compression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] chinchilla-70b-outperformed-png-flac
+DeepMind Chinchilla 70B outperformed PNG and FLAC on compression benchmarks, though training data overlap is a concern for benchmark validity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] expert-systems-dominated-ai-1980
+Expert systems dominated AI by 1980, pushing statistical approaches out of mainstream AI.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] generalization-definition-unseen-same-distribution
+Generalization is the ability of a trained model to perform accurately on new, unseen examples drawn from the same unknown distribution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-similarity-learning-similarity-function
+Similarity learning learns a similarity function between objects and is used in ranking, recommender systems, and face verification.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-clustering-compactness-separation
+Clustering groups observations by similarity metrics and is evaluated by internal compactness and separation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-weakly-supervised-noisy-labels
+Weakly supervised learning uses noisy, limited, or imprecise labels that are cheaper to obtain.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-anomaly-detection-three-categories
+Anomaly detection identifies rare items or events that differ significantly from majority data and has three categories: unsupervised, supervised, and semi-supervised.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-learning-classifier-systems-genetic
+Learning classifier systems combine genetic algorithms with supervised, reinforcement, or unsupervised learning to build context-dependent rule sets.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-ilp-entails-positive-no-negative
+Inductive logic programming uses logic programming to derive hypothesized programs that entail all positive and no negative examples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-self-learning-crossbar-emotion-reward
+Self-learning (1982, crossbar adaptive array) uses an internal emotion signal as reward and requires no external reinforcement input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-ann-weighted-edges-adjust
+Artificial neural networks consist of interconnected artificial neuron nodes with weighted edges, and the weights adjust during learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-decision-tree-branches-leaves
+Decision trees map observations along branches to target values at leaves.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-regression-analysis-family-list
+Regression analysis includes linear regression, ridge regression, polynomial regression, logistic regression, kernel regression, and multivariate linear regression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-gaussian-process-finite-multivariate-normal
+A Gaussian process is a stochastic process in which every finite collection of random variables has a multivariate normal distribution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-genetic-algorithms-mutation-crossover
+Genetic algorithms are search heuristics that mimic natural selection via mutation and crossover operators.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-dempster-shafer-complexity-propositions
+Dempster-Shafer belief functions reason under uncertainty, and their computational complexity scales with the number of propositions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-rule-based-ml-components
+Rule-based machine learning includes learning classifier systems, association rule learning, and artificial immune systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-xai-right-to-explanation
+Explainable AI (XAI), also called Interpretable AI or Explainable Machine Learning, aims to make AI decisions understandable to humans and may implement a 'right to explanation'.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-uk-house-lords-impact-explanation
+The UK House of Lords stated that systems with substantial impact on individuals must provide satisfactory explanations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-black-box-opaque-to-designers
+Machine learning models can be opaque even to their designers because internal decision logic is not interpretable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-backdoor-third-party-models
+Third-party trained models can contain hidden backdoors that alter classification on chosen inputs, even when white-box access is available.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-spurious-correlations-color-shape
+Spurious correlations can cause models to learn unintended patterns, such as associating color with class rather than shape, leading to brittle real-world performance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-common-failure-causes-list
+Common machine learning failure causes include lack of suitable data, data bias, privacy issues, poorly chosen tasks or algorithms, wrong tools or people, insufficient resources, and evaluation problems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-microsoft-tay-2016-racist-language
+Microsoft Tay (2016) was a chatbot that learned racist and sexist language from Twitter data, demonstrating risks of unfiltered training data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-ai-faculty-female-16-1
+According to CRA 2021, 16.1% of AI faculty are female.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-us-ai-phd-graduate-diversity
+Among new US AI PhD graduates, 45% are white, 22.4% Asian, 3.2% Hispanic, and 2.4% African American.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-tinyml-resource-constrained-devices
+Embedded ML (TinyML) deploys models on resource-constrained devices such as wearables, edge devices, and microcontrollers to reduce latency, improve privacy, and eliminate cloud dependency.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-pytorch-tensorflow-primary-deep-learning-frameworks
+PyTorch and TensorFlow are the primary deep learning frameworks in the ML open-source software ecosystem.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-key-ml-conferences-neurips-icml-iclr-kdd-aaai-acl
+Key ML conferences include NeurIPS, ICML, ICLR, KDD, AAAI, and ACL.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-neuromorphic-software-or-hardware
+Neuromorphic computing can be implemented as software-based simulation or as specialized hardware.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-representation-learning-bengio-2013
+Representation learning is the study of learning useful data representations automatically, comprehensively reviewed by Bengio, Courville, and Vincent (2013).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-self-supervised-pretext-tasks
+Self-supervised learning learns representations from unlabeled data using pretext tasks, as reviewed by Misra and van der Maaten (2020) and Jaiswal et al. (2021).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-bozinovski-1982-crossbar-delayed-rl
+Bozinovski (1982) solved delayed reinforcement learning with the Crossbar Adaptive Array.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-friedman-1998-ml-data-mining
+Friedman (1998) explored the connection between machine learning and data mining.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-feature-learning-hierarchy-handcrafted-dictionary-deep
+The feature learning hierarchy traces from handcrafted features such as bag of keypoints (Csurka 2004) through dictionary learning such as K-SVD (Aharon 2006) to deep representation learning (Bengio 2009, 2013).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-foundational-textbooks-list
+Foundational ML textbooks include Bishop (2006), Mitchell (1997), Russell and Norvig's Artificial Intelligence: A Modern Approach, Mohri et al.'s Foundations of Machine Learning, Alpaydin (2010), James et al.'s An Introduction to Statistical Learning, and Bengio (2009) Learning Deep Architectures for AI.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-classified-under-ai-alongside-automated-reasoning-rl-diffusion-autoregressive-prompt-engineering-neuro-symbolic
+Machine learning is classified under Artificial Intelligence alongside automated reasoning, reinforcement learning, diffusion models, autoregressive models, prompt engineering, and neuro-symbolic AI.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] machine-learning-draws-on-probability-statistics-information-theory-numerical-analysis-discrete-mathematics-optimization
+Machine learning draws on probability, statistics, information theory, numerical analysis, discrete mathematics, and optimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] machine-learning-depends-on-gpu-acceleration-system-on-chip-designs-energy-efficient-computing
+Machine learning depends on GPU acceleration, system-on-chip designs, and energy-efficient computing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-security-intersects-via-adversarial-ml-cryptography-intrusion-detection
+Machine learning intersects security via adversarial ML, cryptography, and intrusion detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-foundational-textbooks-include-russell-norvig-aima-4th-ed-2020-bishop-2006-hastie-et-al-elements-statistical-learning-murphy-2022-alpaydin-4th-ed-2020
+Foundational ML textbooks include Russell and Norvig's AIMA (4th ed., 2020), Bishop's Pattern Recognition and ML (2006), Hastie/Tibshirani/Friedman's Elements of Statistical Learning, Murphy's Probabilistic ML (2022), and Alpaydin's Introduction to ML (4th ed., 2020).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ml-notable-figures-include-turing-mcculloch-pitts-minsky-mccarthy-rosenblatt-werbos-hinton-lecun-bengio-schmidhuber-ng-goodfellow-hassabis-vaswani-sutskever-chollet
+Notable figures in ML/AI include Turing, McCulloch, Pitts, Minsky, McCarthy, Rosenblatt, Werbos, Hinton, LeCun, Bengio, Schmidhuber, Ng, Goodfellow, Hassabis, Vaswani, Sutskever, and Chollet.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Machine_learning-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Machine_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-subfield-cs-process-understand-generate-human-language
+Natural language processing is a subfield of computer science concerned with enabling computers to process, understand, and generate human natural language.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-intersects-ai-computational-linguistics-information-retrieval-knowledge-representation
+NLP sits at the intersection of AI, computational linguistics, information retrieval, and knowledge representation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-major-tasks-speech-recognition-text-classification-nlu-nlg
+Major NLP tasks include speech recognition, text classification, natural language understanding (NLU), and natural language generation (NLG).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] symbolic-nlp-hand-coded-rules-grammars-dictionary-lookups-shrdlu-eliza-parry
+Symbolic NLP (1950s–early 1990s) used hand-coded rules, grammars, and dictionary lookups; key systems included SHRDLU, ELIZA, and PARRY.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistical-nlp-replaced-hand-written-rules-driven-by-compute-chomsky-decline-multilingual-corpora
+Statistical NLP replaced hand-written rules, driven by increased compute (Moore's law), the decline of Chomskyan dominance, and availability of multilingual corpora such as EU and Canadian parliamentary proceedings.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neural-nlp-seq2seq-eliminated-word-alignment-in-machine-translation
+Neural NLP sequence-to-sequence models eliminated the need for word alignment in machine translation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rule-based-nlp-still-used-for-low-resource-languages-preprocessing-post-processing
+Rule-based NLP systems remain useful for low-resource languages, preprocessing such as tokenization, and post-processing such as knowledge extraction from parses.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistical-mt-enabled-by-multilingual-parliamentary-corpora-canada-eu
+Statistical machine translation was enabled by existing multilingual parliamentary corpora from Canada and the EU.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-tasks-hierarchy-low-level-tokenization-pos-tagging-feed-high-level-parsing-ner-mt
+NLP tasks form a hierarchy in which low-level tasks such as tokenization and POS tagging feed into higher-level tasks such as parsing, NER, and machine translation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tokenization-maps-words-subwords-to-numerical-ids-word-index-tokenized-text
+Tokenization splits text into words or subwords, maps them to numerical IDs, and produces a word index and tokenized text.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] morphological-segmentation-turkish-agglutinative-thousands-word-forms-per-dictionary-entry
+Morphological segmentation is harder for agglutinative languages like Turkish, which can have thousands of word forms per dictionary entry, than for English.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pos-tagging-ambiguity-book-noun-verb-set-noun-verb-adjective
+POS tagging is complicated by ambiguity: 'book' can be a noun or verb, and 'set' can be a noun, verb, or adjective.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] parsing-two-types-dependency-relationships-constituency-parse-trees-pcfg
+Parsing has two major types: dependency parsing (relationships between words) and constituency parsing (building parse trees, often using PCFGs).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sentiment-analysis-classifies-emotional-tone-positive-negative-neutral-using-ngrams-tfidf-deep-learning
+Sentiment analysis classifies emotional tone as positive, negative, or neutral using n-grams, TF-IDF, or deep learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] word-sense-disambiguation-selects-correct-meaning-polysemous-word-context
+Word-sense disambiguation selects the correct meaning of a polysemous word in context.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] grammatical-error-correction-largely-solved-2019-orthography-morphology-syntax-gpt2
+Grammatical error correction was considered largely solved as of 2019 for orthography, morphology, and syntax due to powerful neural language models such as GPT-2.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cognitive-nlp-emulates-intelligent-behavior-apparent-comprehension-natural-language
+Cognitive NLP emulates intelligent behavior and apparent comprehension of natural language, operationalizing increasingly advanced cognitive behavior.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conceptual-metaphor-theory-lakoff-understanding-one-idea-in-terms-of-another
+George Lakoff's conceptual metaphor theory explains understanding one idea in terms of another to infer author intent, such as 'big' as physical size versus metaphorical importance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] relative-measure-of-meaning-rmm-assigns-meaning-to-tokens-based-on-surrounding-context-pmm-pf
+The Relative Measure of Meaning (RMM) is a mathematical framework that assigns meaning to tokens based on surrounding context using probable measure of meaning (PMM) and language-specific probability functions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rmm-formula-uses-pmm-multiplied-by-average-pf-over-window-2d
+RMM(token_N) = PMM(token_N) x (1/2d) x sum over i from -d to d of (PMM(token_N) x PF(token_{N-i}, token_N, token_{N+i})).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conll-task-progression-shallow-parsing-1999-to-semantic-parsing-2019
+CoNLL task progression from shallow parsing in 1999 to semantic parsing in 2019 illustrates increasing cognitive abstraction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cognitive-linguistics-declined-after-1990s-statistical-turn-revived-via-explainability-multimodal-nlp
+Cognitive linguistics declined in NLP influence after the 1990s statistical turn but has seen revival through explainability ('cognitive AI') and multimodal NLP.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] relative-measure-of-meaning-rmm-patented-us-9269353
+The Relative Measure of Meaning (RMM) is patented under US Patent 9269353.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] friston-free-energy-principle-basis-for-agi-directions-connected-to-cognitive-nlp
+Karl Friston's free energy principle is cited as a basis for new artificial general intelligence directions connected to cognitive NLP.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistical-revolution-nlp-associated-with-mark-johnson-philip-resnik
+The statistical revolution in NLP is associated with Mark Johnson and Philip Resnik.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centering-theory-joshi-weinstein-1981-discourse-structure-for-coreference-resolution
+Centering theory (Joshi and Weinstein, 1981) is a discourse structure theory for controlling inference that is important for coreference resolution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] grounded-compositional-semantics-connects-language-to-visual-representations-socher-karpathy-manning-ng-2014
+Grounded compositional semantics connects language to visual representations, as in work by Socher, Karpathy, Manning, and Ng (2014).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conll-shared-tasks-cataloged-at-conll-org-previous-tasks
+CoNLL shared tasks are cataloged at conll.org/previous-tasks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conll-2013-2014-shared-tasks-grammatical-error-correction-benchmarks-hosted-at-nus
+CoNLL 2013 and 2014 shared tasks were grammatical error correction benchmarks hosted at NUS.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] machine-translation-earliest-nlp-application
+Machine translation was the earliest NLP application.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] healthcare-nlp-used-for-diabetes-care-quality-measurement-and-sensitive-term-detection-in-clinical-notes
+Healthcare NLP has been applied to diabetes care quality measurement and sensitive term detection in clinical notes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multimodal-nlp-includes-text-to-image-dall-e-text-to-video-meta-make-a-video-google-text-to-scene-wordseye
+Multimodal NLP includes text-to-image (DALL-E), text-to-video (Meta's Make-A-Video, Google), and text-to-scene (WordsEye, Stanford).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-taxonomy-categories
+NLP taxonomy categories include text analysis, text segmentation, summarization, machine translation, distributional semantics, language resources, speech processing, topic modeling, computer-assisted reviewing, natural language interfaces, and visual-linguistic processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-core-building-blocks
+NLP core building blocks include bag-of-words, n-grams (bigrams, trigrams), stop words, and text processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-text-analysis-components
+Text analysis in NLP includes named-entity recognition, sentiment analysis, coreference resolution, parsing (semantic and syntactic), part-of-speech tagging, and word-sense disambiguation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-context-limitation
+Even advanced NLP models are constrained by the amount of context they receive, which is a significant limitation for domains with sparse training data such as ancient languages.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-tools-nltk-spacy-gensim
+NLTK is a Python library for NLP, spaCy is an industrial-strength NLP library, and Gensim is used for topic modeling and document similarity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-topic-modeling-methods
+Topic modeling methods in NLP include LDA and Pachinko allocation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-visual-linguistic-processing
+Visual-linguistic processing in NLP includes CLIP, VLMs, and VLAMs and bridges NLP with computer vision.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Natural_language_processing-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Natural_language_processing
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-layers-input-hidden-output
+Artificial neurons are organized in layers: an input layer, one or more hidden layers, and an output layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-weights-on-edges
+Weights are parameters on edges between neurons that determine signal strength and are adjusted during training.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-training-requires-gpu-large-datasets
+Training neural networks is compute-intensive, accelerated by GPUs, and dependent on large datasets.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-weak-weight-associations-cause-false-positives
+Weak or spurious weight associations can cause false positives in neural network classifications, such as a shell shape triggering sea urchin detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-cnn-rnn-transformer-specializations
+Convolutional Neural Networks (CNNs) are optimized for computer vision tasks; Recurrent Neural Networks (RNNs) are for sequential data such as speech and time series; Transformers are attention-based architectures enabling long-range dependency modeling and are the foundation for large language models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-backbone-for-ml-paradigms
+Neural networks serve as the computational backbone for supervised, unsupervised, and reinforcement learning paradigms.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-architecture-families-list
+Neural network architecture families include Transformer, RNN (LSTM, GRU, Echo State Network), CNN, MLP, Autoencoder (VAE), GAN, GNN, Mamba, Residual/Highway networks, and Neural Turing Machines/Differentiable Neural Computers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-10.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ann-used-in-control-theory-alongside-kalman-fuzzy-lyapunov
+Within control theory, ANNs appear as an advanced technique alongside Kalman filters, fuzzy logic, and Lyapunov stability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-10.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ann-complex-systems-evolution-adaptation
+Within complex systems, ANNs relate to evolution and adaptation alongside genetic algorithms, evolutionary computation, and artificial life.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-10.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ann-enables-self-driving-cars
+ANNs are a core enabling technology for self-driving cars alongside LIDAR, radar, and computer vision.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-10.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ann-homeostatic-regulation-active-research
+Biologically inspired neural networks with homeostatic regulation and adaptive repair mechanisms represent an active research direction (Hakim & Alam, 2025).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-10.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-network-least-squares-origin
+The simplest feedforward neural network is a linear network using least squares, a technique dating to Legendre (1805) and Gauss (1795) for planetary motion prediction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] connectionism-differs-from-von-neumann-memory-processing
+Connectionism, the basis of neural networks, differs from the von Neumann computing model in that it does not separate memory and processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hebbian-learning-1949-neural-plasticity
+Hebbian learning (1949) is based on neural plasticity ('neurons that fire together wire together') and was used in perceptrons and Hopfield networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] perceptron-1958-golden-age-limited-linear
+The perceptron (1958) sparked the 'Golden Age of AI' but was limited to linearly separable problems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] amari-1967-first-deep-mlp-sgd
+Amari (1967) trained the first deep MLP using stochastic gradient descent.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] statistical-mechanics-influenced-hopfield-boltzmann
+Statistical mechanics influenced both Hopfield networks and Boltzmann machines.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-directed-weighted-graph-weights-on-nodes-and-edges
+A neural network forms a directed, weighted graph with weights on both nodes (biases) and edges (connection weights).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fully-connected-layers-all-neurons-connected
+In fully connected layers, every neuron in one layer connects to every neuron in the next layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-neuron-connections-analogous-to-biological-axon-synapse-dendrite
+Neuron connections in artificial neural networks are analogous to axon-synapse-dendrite pathways in biological neural systems, though modern designs prioritize mathematical performance over biological fidelity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] single-layer-unlayered-networks-less-common
+Single-layer and unlayered neural networks exist but are less common than multi-layer architectures.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] training-completed-before-deployment-no-continuous-learning
+Neural networks require training to be completed before deployment; they do not learn continuously after deployment in the standard paradigm.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] empirical-risk-minimization-minimizes-prediction-error
+Empirical risk minimization adjusts network weights to minimize the difference between predicted and known outputs across training samples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] momentum-balances-current-gradient-and-previous-change
+Momentum in neural network training balances the current gradient against the previous weight change; values near 0 emphasize the gradient and values near 1 emphasize the prior change.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] training-convergence-cost-approaches-not-zero
+Training convergence occurs when additional observations no longer usefully reduce the cost, and the cost approaches but typically does not reach zero.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stochastic-neural-networks-use-random-variations
+Stochastic neural networks introduce random variations via stochastic transfer functions or weights to help escape local minima; Bayesian neural networks are stochastic networks trained with a Bayesian approach.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] batch-training-uses-accumulated-errors
+Batch training adjusts weights based on accumulated errors over a full batch, resulting in faster and more stable descent compared to per-sample updates.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-uses-paired-input-output-and-mse
+Supervised learning uses paired input/output training data and mean-squared error, applying to classification and regression tasks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neuroevolution-uses-evolutionary-computation
+Neuroevolution uses evolutionary computation to create network topologies and weights, and is competitive with gradient descent while being less prone to getting stuck in dead ends.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] static-neural-networks-have-fixed-topology
+Static neural networks have fixed units, layers, weights, and topology, whereas dynamic networks evolve through learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cnns-use-kernels-and-regularization
+Convolutional Neural Networks (CNNs) are feedforward networks that use kernels and regularization, typically applied to visual and 2D data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nas-automates-network-design
+Neural Architecture Search (NAS) automates network design by proposing candidate models, evaluating them, and feeding results back; implementations include AutoML and AutoKeras.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-convergence-challenges-include-local-minima-and-saddle-points
+Neural network convergence challenges include getting stuck in local minima, failing to converge from distant starting points, computational impracticality at scale, and crossing saddle points that block the solution.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mse-confidence-intervals-valid-only-if-distribution-unchanged
+MSE-based confidence intervals on validation data are valid only while the output distribution remains unchanged and the network is unmodified.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-medical-applications-include-imaging-and-drug-discovery
+Neural networks enhance diagnostic accuracy via medical imaging interpretation, accelerate drug discovery, and enable personalized treatment planning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nn-cybersecurity-detects-anomalies-by-learning-normal-behavior
+In cybersecurity, neural networks detect anomalies by learning patterns of normal behavior and flagging deviations, and are used for malware classification and intrusion detection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] concept-drift-degrades-model-accuracy-over-time
+Concept drift (non-stationarity) occurs when statistical properties of input data change over time, degrading model accuracy post-deployment.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] commercial-llm-training-costs-tens-of-millions-2026
+As of 2026, training commercial large language models requires hundreds of thousands of computers and costs tens of millions of dollars.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neuromorphic-engineering-implements-nns-in-hardware
+Neuromorphic engineering and custom hardware such as Google's Tensor Processing Units are designed to directly implement neural networks in circuitry, bypassing von Neumann bottlenecks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] brain-power-vs-training-power-contrast
+The human brain uses only about 20 watts, whereas training data centers for large neural networks consume hundreds of megawatts (as of 2026 figures).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] weights-encode-connection-strength-and-direction
+Weights (w_iq) are learnable parameters connecting input i to output q, encoding the strength and direction of each connection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bias-shifts-activation-threshold
+Bias (b_q) is a per-output offset subtracted before the activation function is applied, shifting the activation threshold.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cmac-converges-in-single-training-step
+CMAC (Cerebellar Model Articulation Controller) is a specialized neural network with a parallel pipeline structure capable of converging in a single training step, useful for real-time control.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoders-are-multi-layer-feedforward-reconstructing-input
+Autoencoders are multi-layer feedforward networks trained to reconstruct their input, used for dimensionality reduction and feature learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] spiking-neural-networks-encode-information-in-spike-timing
+Spiking neural networks encode information in the timing of spikes, unlike the rate-coded activations in standard feedforward networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] catastrophic-interference-destroys-previous-representations
+Catastrophic interference is a failure mode of feedforward networks where learning new tasks destroys previously learned representations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ivakhnenko-gmdh-first-multiple-hidden-layer-networks
+Ivakhnenko's Group Method of Data Handling (GMDH) in 1965-1971 introduced networks with multiple hidden layers trained layer-by-layer, arguably the first deep learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neocognitron-precursor-to-cnns
+Fukushima's Neocognitron (1979-1980) was a self-organizing neural network for shift-invariant pattern recognition and the architectural precursor to convolutional neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lenet-applied-backprop-to-cnn-digit-recognition
+LeCun et al. (1989/1998) applied backpropagation to train convolutional networks on handwritten digit recognition, leading to LeNet.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dartmouth-proposal-1955-coined-artificial-intelligence
+The Dartmouth Proposal (1955) by McCarthy, Minsky, Rochester, and Shannon coined "Artificial Intelligence" as a field name.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] protein-secondary-structure-prediction-early-nn-biology
+Protein secondary structure prediction (Qian & Sejnowski 1988, Rost & Sander 1993) was one of the earliest successful applications of neural networks to biology, presaging AlphaFold.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hopfield-networks-connect-to-boltzmann-machines
+Hopfield networks connect to Boltzmann machines and energy-based models in statistical physics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bishop-1995-covers-bayesian-neural-networks-regularization
+Bishop (1995) covers Bayesian treatment of neural networks and regularization techniques.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] haykin-1999-comprehensive-neural-network-foundation-textbook
+Haykin (1999) is a comprehensive foundation textbook on neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mackay-2003-connects-neural-networks-to-bayesian-inference-information-theory
+MacKay (2003) connects neural networks to Bayesian inference, information theory, and coding.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] duda-hart-stork-2001-provides-pattern-recognition-context-for-neural-networks
+Duda, Hart, and Stork (2001) provide a pattern recognition context that includes SVMs, decision trees, and Bayesian classifiers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] egmont-petersen-2002-reviews-image-processing-with-neural-networks
+Egmont-Petersen et al. (2002) reviews image processing with neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] borgelt-2003-covers-neural-fuzzy-systems
+Borgelt (2003) covers the coupling of neural networks with fuzzy systems.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bhadeshia-1999-reviews-neural-networks-in-materials-science
+Bhadeshia (1999) reviews neural networks in materials science.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cybenko-universal-approximation-guarantees-existence-not-construction
+Cybenko's Universal Approximation Theorem guarantees existence of a single-hidden-layer sigmoidal approximation but does not provide a construction method.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Neural_network_28machine_learning29-chunk-9.md
+- Source URL: https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] overfitting-shrinkage-coefficient-of-determination-on-unseen-data
+Even well-fitted models tend to perform worse on new datasets than on training data, so the coefficient of determination shrinks on unseen data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] occams-razor-simpler-models-a-priori-more-probable
+Occam's razor or the principle of parsimony holds that simpler models are a priori more probable and added complexity must be justified by sufficient improvement in fit.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] model-complexity-not-just-parameter-count
+Model complexity cannot be compared solely by parameter count because the expressivity of each parameter matters.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] overfitting-risk-increases-with-long-training-rare-examples-and-little-theory
+Overfitting is more likely when training runs too long, training examples are rare, or there is little theoretical guidance for model selection.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] early-stopping-halts-training-when-validation-error-increases
+Early stopping halts training when validation error begins increasing, preventing the model from memorizing noise.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bayesian-priors-regularize-machine-learning-models
+Bayesian priors encode prior beliefs about parameter values and effectively regularize the model.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dropout-randomly-removes-inputs-during-training
+Dropout randomly removes inputs during training to improve robustness.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pruning-reduces-overfitting-and-computational-cost
+Pruning identifies sparse optimal network structure, reducing overfitting and computational cost simultaneously.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] underfitting-misses-replicable-structure
+Underfitted models miss important replicable structure in data and fail to identify effects actually supported by the data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] underfitting-biases-parameter-estimates-and-underestimates-sampling-variance
+In underfitted models, parameter estimator bias is often substantial, sampling variance is underestimated, and confidence interval coverage is poor.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] benign-overfitting-observed-in-deep-neural-networks
+Benign overfitting, where a model achieves perfect training accuracy even on noisy data yet still generalizes well, is particularly observed in deep neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] underfitting-remediable-by-increasing-model-complexity-or-training-data
+Underfitting can be remediated by increasing model complexity or increasing training data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ensemble-methods-remedy-underfitting
+Ensemble methods can remedy underfitting by combining multiple models to better capture patterns.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] double-descent-test-error-decreases-after-interpolation-threshold
+In overparameterized models, double descent describes test error decreasing again after the interpolation threshold.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vc-dimension-insufficient-for-task-causes-underfitting
+Models with insufficient VC dimension for the task will underfit.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-engineering-affects-underfitting-overfitting-balance
+Feature engineering and feature selection directly affect model expressiveness and the underfitting-overfitting balance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Overfitting-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Overfitting
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-feature-bagging-decorrelates-trees
+Random forest feature bagging considers only a random subset of features at each split, preventing strong predictors from dominating every tree and further decorrelating the ensemble.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-tree-prediction-stddev-estimates-uncertainty
+The standard deviation across individual tree predictions in a random forest provides an uncertainty estimate.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-tree-count-typically-hundreds-to-thousands
+Random forests typically use hundreds to thousands of trees.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-high-dimensional-variants
+High-dimensional random forest adaptations include prefiltering noisy features, Enriched Random Forest with weighted feature sampling, and Tree-Weighted Random Forest with weighted tree voting.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] extratrees-feature-subset-defaults
+ExtraTrees default features per split are sqrt(p) for classification and p (all features) for regression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-is-registered-trademark
+'Random Forests' is a registered trademark originally held by Breiman and Cutler and now owned by Minitab, Inc.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] boosting-sequential-reduces-bias-vs-random-forest-variance
+Boosting builds trees sequentially and reduces bias, whereas random forests build trees independently and reduce variance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-first-proposed-by-salzberg-heath-1993
+Salzberg and Heath (1993) made the first proposal of random forests.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] permutation-importance-measures-oob-error-increase
+Permutation importance measures a feature's importance by permuting its values in out-of-bag samples and computing the increase in OOB error, normalized by the standard deviation of differences across trees.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mdi-sums-weighted-impurity-decreases
+Mean decrease in impurity (MDI) sums each feature's impurity decrease at split nodes, weighted by the fraction of samples reaching each node, averaged across all trees.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mdi-default-feature-importance-in-sklearn-and-r
+MDI is the default feature importance in both scikit-learn and R's randomForest package.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unsupervised-random-forest-dissimilarity-discriminates-real-vs-synthetic
+Unsupervised random forest dissimilarity is constructed by training a forest to distinguish observed data from synthetic reference data, producing a distance measure robust to outliers and invariant to monotonic transformations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-linear-base-learners-match-accuracy-for-linear-relationships
+Replacing decision trees in a random forest with multinomial logistic regression or naive Bayes classifiers can match ensemble accuracy when the true relationship is linear.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-impurity-measures-classification-regression
+Random forest split impurities use the Gini coefficient or entropy for classification and mean squared error for regression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] feature-importance-normalization-sums-to-one
+Feature importances can be normalized by dividing each raw importance by the sum across all features so that importances sum to 1.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] permutation-importance-requires-oob-or-independent-test-set
+Permutation importance relies on OOB error estimation; if bagging is not used, an independent test set is needed instead.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kerf-rewrites-rf-as-kernel-estimators
+Kernel Random Forests (KeRF) rewrite random forests as kernel estimators with explicit, analyzable kernel functions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centered-forest-splits-at-cell-center
+Centered forest construction uniformly selects an attribute and splits at the center of the cell along that attribute.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] uniform-forest-splits-at-uniform-random-point
+Uniform forest construction uniformly selects a feature and splits at a uniformly random point on the cell side along that feature.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] centered-kerf-kernel-dyadic-partitions
+Centered KeRF has an explicit closed-form kernel based on dyadic partitions (ceiling functions of 2^{k_j} coordinates).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] interpretability-serves-developers-and-end-users
+Interpretability in machine learning serves two distinct stakeholders: developers for model validation and end-users for trust and confidence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rf-path-following-complexity
+Following the decision path of a single decision tree is trivial, but following paths across tens or hundreds of trees is much harder.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tin-kam-ho-random-decision-forests-1995
+Tin Kam Ho introduced 'Random Decision Forests' (1995) and the 'Random Subspace Method' (1998).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-precursors-kleinberg-amit-geman
+Kleinberg's 'Stochastic Discrimination' (1990, 1996, 2000) and Amit & Geman's randomized trees (1997) were precursors to Breiman's random forests.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rf-feature-ranking-unreliable-correlated-features
+Feature ranking in random forests is unreliable when features are correlated, as noted by Tolosi and Lengauer (2011).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unsupervised-random-forest-shi-horvath-2006
+Shi and Horvath (2006) extended random forests to unsupervised settings using synthetic data generation and proximity matrices.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] randomforest-r-package-standard-implementation
+The randomForest R package is the standard R implementation of Breiman's random forest algorithm.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sklearn-permutation-importance-api
+Permutation importance is available in scikit-learn via the function sklearn.inspection.permutation_importance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] denisko-hoffman-2018-feature-interactions
+Denisko and Hoffman (2018) addressed feature interactions and classification mechanics in random forests, published in PNAS.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] randomforest-package-documented-liaw-wiener-2002
+The randomForest package in R is documented by Liaw and Wiener (2002) in R News.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] randomforest-r-fit-call
+The randomForest package in R can be used to fit a model with the call randomForest(y ~ ., data = training_data).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-forest-captures-feature-interactions-implicitly
+Random forests can capture feature interactions implicitly through tree splits, which is a key advantage over linear models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Random_forest-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Random_forest
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stacked-rnn-layer-output-is-next-layer-input
+In a stacked (deep) RNN, layer k's output sequence becomes layer k+1's input sequence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stacked-rnn-each-layer-has-own-parameters
+Each layer in a stacked RNN has its own parameter set θ_k.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] stacked-rnn-each-layer-has-own-hidden-state
+Each layer in a stacked RNN has its own hidden state h_{k,t}.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pixelrnn-extends-rnns-to-2d-grids
+PixelRNN extends RNNs to 2D data such as images.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diagonal-bilstm-uses-two-opposite-direction-lstms
+The diagonal BiLSTM variant in PixelRNN uses two LSTMs: one from top-left to bottom-right and one from top-right to bottom-left.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] diagonal-bilstm-cell-depends-on-above-and-side-states
+In PixelRNN's diagonal BiLSTM, each cell depends on hidden/cell states from above and to the side.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bam-is-two-layer-hopfield-variant-where-either-layer-can-input
+Bidirectional Associative Memory (BAM) is a two-layer Hopfield variant in which either layer can serve as input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bam-uses-matrix-and-transpose-for-bidirectionality
+BAM uses a matrix and its transpose to achieve bidirectionality.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bam-prefers-bipolar-over-binary-encoding
+BAM prefers bipolar over binary encoding.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] liquid-state-machine-is-spiking-echo-state-network
+A liquid state machine is the spiking-neuron variant of an echo state network.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] recursive-nn-applies-same-weights-over-differentiable-graph
+A recursive neural network applies the same weights recursively over a differentiable graph structure in topological order.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnn-is-linear-chain-case-of-recursive-nn
+An RNN is the special case of a recursive neural network where the graph is a linear chain.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] dnc-extends-ntm-with-fuzzy-addressing-and-chronological-recording
+Differentiable Neural Computer (DNC) extends the Neural Turing Machine with fuzzy memory addressing and chronological recording.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nnpda-uses-differentiable-analog-stacks
+Neural Network Pushdown Automata use differentiable analog stacks instead of tapes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoregressive-rnn-generates-one-token-conditioned-on-prior-tokens
+An autoregressive RNN is trained as a conditional generative model that produces one token at a time conditioned on prior tokens.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bptt-is-backprop-unrolled-across-time
+Backpropagation Through Time (BPTT) is a special case of general backpropagation unrolled across time steps.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rtrl-uses-forward-mode-automatic-differentiation
+Real-Time Recurrent Learning (RTRL) is an online variant that uses forward-mode automatic differentiation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lstm-training-uses-bptt-rtrl-hybrid
+LSTM addresses the vanishing gradient problem using a BPTT/RTRL hybrid learning method with gated memory cells.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] crbp-combines-bptt-and-rtrl-for-locally-recurrent-networks
+Causal Recursive Backpropagation (CRBP) is an online algorithm combining BPTT and RTRL for locally recurrent networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] genetic-algorithm-rnn-fitness-is-reciprocal-mse
+In genetic algorithm training of RNNs, the fitness function is the reciprocal of mean-squared error.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] genetic-algorithm-encodes-weights-as-chromosome-one-gene-per-weight
+Genetic algorithm training of RNNs encodes network weights as a chromosome with one gene per weight link.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnn-gradient-training-requires-differentiable-activation-functions
+RNN gradient descent training requires activation functions to be differentiable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] indrnn-enables-relu-and-skip-connections
+IndRNN supports non-saturated activations such as ReLU and deep architectures via skip connections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neural-history-compressor-minimizes-description-length
+The neural history compressor minimizes description length (negative log probability).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hierarchical-rnn-decomposes-behavior-into-subprograms
+Hierarchical RNN (HRNN) decomposes behavior into subprograms by connecting neurons hierarchically.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mtrnn-neurons-have-distinct-time-constants
+MTRNN neurons have distinct time constants that enable segmentation of continuous behavior into reusable primitives.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rmlpn-cascaded-subnetworks-feedforward-except-last-feedback
+RMLPN consists of cascaded subnetworks that are feed-forward except the last layer, which has feedback connections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rmlpn-subnetworks-connect-only-via-feedforward-connections
+In RMLPN, subnetworks connect only via feed-forward connections.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ctrnn-models-neuron-dynamics-with-odes
+Continuous-time RNN (CTRNN) models neuron dynamics with ordinary differential equations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnns-generalize-fir-iir-filters-and-narx-models
+From a time-series perspective, RNNs generalize finite impulse response (FIR) and infinite impulse response (IIR) filters, and NARX models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] peephole-connections-added-to-lstm-2001-gers-schmidhuber
+Peephole connections were added to LSTM by Gers & Schmidhuber in 2001.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] schuster-paliwal-1997-introduced-bidirectional-rnns
+Schuster & Paliwal introduced bidirectional RNNs in 1997.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kosko-1988-introduced-bam
+Kosko introduced Bidirectional Associative Memory (BAM) in 1988.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] echo-state-networks-relate-to-reservoir-computing
+Echo State Networks relate to reservoir computing, a distinct RNN training paradigm.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nakano-associatron-1971-precursor-to-rnns
+Nakano's Associatron (1971–72) was a precursor to RNN architectures.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lorente-de-no-described-reverberating-circuits-1933
+Lorente de Nó's work on reverberating circuits in the nervous system (1933) is a neuroscience origin of RNN concepts.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnns-classified-under-neural-network-architectures
+RNNs are classified under neural network architectures alongside LSTMs, GRUs, Echo State Networks, Transformers, and CNNs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] neural-turing-machine-extends-recurrent-ideas-external-memory
+Neural Turing Machines and Differentiable Neural Computers extend recurrent ideas with external memory.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnns-primary-autoregressive-sequence-modeling
+RNNs are a primary architecture for autoregressive sequence modeling.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rnns-dominant-for-language-models-before-transformers
+RNNs were the dominant architecture for language models and neural machine translation before Transformers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mandic-chambers-2001-covers-rnn-prediction
+Mandic and Chambers (2001) covers RNN prediction, including learning algorithms, architectures, and stability.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Recurrent_neural_network-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Recurrent_neural_network
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rl-agent-environment-loop-observes-state-reward-action
+At each discrete time step t, the RL agent observes state S_t and reward R_t, selects action A_t, and the environment transitions to S_{t+1} with reward R_{t+1}.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] policy-maps-states-to-action-probabilities
+A policy π: S × A → [0,1] gives the probability of taking action a in state s.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] regret-is-performance-difference-from-optimal
+Regret is the difference between an agent's performance and the optimal agent's performance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-armed-bandit-studies-exploration-exploitation
+The multi-armed bandit is a simplified RL setting used to study the exploration-exploitation trade-off.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rl-uses-sampling-instead-of-known-mdp-model
+RL algorithms solve MDPs using sampled experience rather than requiring full knowledge of the model.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] function-approximation-handles-large-continuous-state-spaces
+Function approximation uses neural networks or other approximators to handle large or continuous state spaces where tabular methods are infeasible.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] state-value-function-expected-discounted-return
+The state-value function V^π(s) is the expected discounted return starting from state s and following policy π.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] action-value-function-expected-discounted-return
+The action-value function Q^π(s,a) is the expected discounted return from taking action a in state s and then following policy π.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] discounted-return-weights-future-rewards-by-gamma
+Discounted return G is the sum of future rewards weighted by discount factor γ, with 0 ≤ γ < 1, as G = R₁ + γR₂ + γ²R₃ + ...
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] value-iteration-and-policy-iteration-require-known-mdp-dynamics
+Value iteration and policy iteration compute sequences converging to Q* using full state-space expectations and require known MDP dynamics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] reinforce-policy-gradient-uses-likelihood-ratio
+REINFORCE is a policy gradient method that uses likelihood ratio estimates of the gradient and is also known as the likelihood ratio method in simulation-based optimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-function-approximation-uses-feature-weights
+Linear function approximation represents Q(s,a) as Σ θᵢ φᵢ(s,a), adjusting weights θ instead of individual state-action values.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] q-learning-derived-from-value-iteration-uses-sampled-transitions
+Q-learning is derived from value iteration and uses sampled transitions instead of full expectations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] policy-gradient-can-stick-in-local-optima
+Policy gradient methods may get stuck in local optima, while gradient-free methods can theoretically reach global optima.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deep-rl-uses-deep-networks-to-avoid-state-space-design
+Deep RL uses deep neural networks to avoid explicit state-space design and was popularized by DeepMind's Atari work.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] self-reinforcement-learning-updates-memory-matrix-without-external-reward
+Self-reinforcement learning eliminates external reward signals, uses internal state evaluation as the learning signal, and updates a memory matrix W via w'(a,s) = w(a,s) + v(s').
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] morl-handles-conflicting-objectives
+Multi-objective RL (MORL) handles conflicting objectives for agents in environments and is distinct from multi-objective optimization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adversarial-deep-rl-studies-imperceptible-manipulations
+Adversarial deep RL studies vulnerabilities of learned policies to imperceptible adversarial manipulations, and proposed defenses remain insufficient.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] matched-implementations-and-episodic-return-tests-compare-rl-algorithms
+RL algorithms can be statistically compared by training agents with closely matched implementations and comparing episodic returns on i.i.d. test episodes using T-tests or permutation tests.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] noise-weighted-rewards-improve-statistical-power
+Aggregating rewards into a single episodic return loses information, and weighting rewards by estimated noise level at each timestep improves statistical power.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] td-converges-with-smooth-function-approximation
+TD-based algorithms converge under broader conditions than previously known, including with arbitrary smooth function approximation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] efficient-mdp-exploration-has-provable-guarantees
+Efficient exploration of MDPs has provable guarantees, though finite-time bounds remain loose.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] nlp-generation-tasks-are-sequential-decision-problems
+NLP tasks such as dialogue generation, summarization, and translation are sequential decision-making problems well-suited to RL frameworks where an agent maximizes cumulative reward.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] early-rl-nlp-dialogue-uses-policy-gradient-sequence-training
+Early RL in NLP focused on dialogue systems using policy gradient and sequence-level training to optimize fluency and coherence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] offline-rl-nlp-targets-engagement-coherence-diversity
+Offline RL in NLP optimizes dialogue systems using past conversation logs and pre-trained reward models, targeting user engagement, coherence, and diversity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] deepseek-r1-uses-cold-start-data-before-rl
+DeepSeek-R1 uses multi-stage training with cold-start data before RL.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] policy-gradient-underpins-dialogue-rl-and-rlhf
+Policy gradient methods underpin both early dialogue RL and modern RLHF pipelines.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kaelbling-littman-moore-1996-early-rl-survey
+Kaelbling, Littman & Moore (1996) authored an early reinforcement learning survey.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] van-otterlo-wiering-2012-mdp-foundations
+Van Otterlo & Wiering (2012) established Markov Decision Process foundations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] burnetas-katehakis-1997-optimal-adaptive-policies
+Burnetas & Katehakis (1997) proved optimal adaptive policies for Markov Decision Processes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bradtke-barto-1996-td-prediction
+Bradtke & Barto (1996) formalized temporal-difference prediction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] peters-vijayakumar-schaal-2003-humanoid-policy-search
+Peters, Vijayakumar & Schaal (2003) applied policy search to humanoid robotics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] duan-2021-dsac-distributional-soft-actor-critic
+Duan et al. (2021) developed Distributional Soft Actor-Critic (DSAC).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] singh-sutton-1996-replacing-eligibility-traces
+Singh & Sutton (1996) formalized replacing eligibility traces as a unifying mechanism between TD and Monte Carlo methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tokic-palm-2011-value-difference-based-exploration
+Tokic & Palm (2011) proposed Value-Difference Based Exploration, adaptive between epsilon-greedy and softmax.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] szita-szepesvari-2010-model-based-exploration-bounds
+Szita & Szepesvári (2010) addressed exploration complexity bounds in model-based reinforcement learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] francois-lavet-2018-deep-rl-introduction
+François-Lavet et al. (2018) provide a comprehensive introduction to deep reinforcement learning bridging classical RL with neural network function approximation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] busoniu-2010-function-approximation-rl
+Busoniu et al. (2010) cover reinforcement learning and dynamic programming with function approximators, addressing the curse of dimensionality.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] powell-2011-approximate-dp-curses-dimensionality
+Powell (2011) focuses on solving the curses of dimensionality in approximate dynamic programming.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] annaswamy-2023-adaptive-control-rl-survey
+Annaswamy (2023) surveys where adaptive control theory and reinforcement learning converge.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bertsekas-2023-li-2023-rl-optimal-control
+Bertsekas (2023) and Li (2023) connect reinforcement learning with optimal control theory.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rlhf-connects-rl-to-language-model-alignment
+Reinforcement learning from human feedback (RLHF) is listed as a related AI concept connecting reinforcement learning to language model alignment.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Reinforcement_learning-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Reinforcement_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-uses-labeled-input-output-pairs
+Supervised learning uses labeled training data consisting of input-output pairs provided by a supervisor.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] generalization-error-measures-unseen-data-performance
+Generalization error measures a model's ability to perform well on unseen data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] curse-of-dimensionality-addressed-by-feature-selection-and-dimensionality-reduction
+The curse of dimensionality in supervised learning is addressed via feature selection and dimensionality reduction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] label-noise-mitigated-by-early-stopping-anomaly-detection-and-noisy-example-removal
+Label noise from human or sensor mistakes is mitigated by early stopping, anomaly detection, and noisy example removal.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] decision-trees-handle-mixed-data-types-while-svms-neural-nets-require-scaled-numerical-features
+Decision trees handle mixed data types well, while SVMs and neural networks require scaled numerical features.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] redundant-features-cause-numerical-instability-in-linear-and-distance-methods
+Redundant features cause numerical instability in linear and distance-based methods and can be fixed with regularization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] linear-models-require-manual-feature-interactions-while-trees-neural-nets-discover-them
+Linear models miss complex feature interactions unless manually specified, whereas trees and neural networks discover them automatically.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-hypothesis-space-mapping
+Supervised learning seeks a function g: X → Y from a hypothesis space G using N labeled feature-label examples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scoring-function-selects-label-by-argmax
+A scoring function f: X × Y → ℝ represents a classifier as g(x) = argmax_y f(x,y).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] empirical-risk-averages-loss-over-training-set
+Empirical risk is the average loss over N training examples: R_emp(g) = (1/N) Σ L(y_i, g(x_i)).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] iid-assumption-underlies-empirical-risk-estimate
+The i.i.d. assumption that training pairs are independent and identically distributed underlies empirical risk as an estimate of true risk.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] erm-overfits-large-hypothesis-space-small-data
+Empirical risk minimization can overfit when the hypothesis space is large relative to the training set size.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] semi-supervised-learning-uses-labeled-and-unlabeled-data
+Semi-supervised learning uses both labeled and unlabeled data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] active-learning-interactively-queries-labels
+Active learning interactively queries for labels.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] occams-razor-motivates-structural-risk-minimization
+Occam's razor is the philosophical principle behind structural risk minimization's preference for simpler models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-applications-span-bioinformatics-cheminformatics-vision-nlp-speech-ocr-spam-procurement
+Supervised learning applications span bioinformatics, cheminformatics, computer vision, NLP, speech recognition, handwriting/OCR, spam detection, and procurement analytics.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] qsar-predicts-biological-activity-from-molecular-structure
+QSAR (Quantitative Structure-Activity Relationship) predicts biological activity from molecular structure.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-to-rank-is-supervised-information-retrieval-approach
+Learning to rank is a supervised approach used in information retrieval systems such as search engines.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] version-space-is-hypotheses-consistent-with-training-data
+A version space is the set of all hypotheses consistent with the training data and shrinks as more examples are seen.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] classifier-class-membership-probabilities-require-calibration
+Classifier class membership probabilities are often uncalibrated, and calibration is a known issue.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mislabeled-training-instances-degrade-classifier-accuracy
+Mislabeled training instances degrade classifier accuracy, and methods exist to identify and remove them.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] computational-learning-theory-provides-pac-vc-foundations
+Computational learning theory provides PAC learning and VC dimension foundations underlying supervised methods.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] supervised-learning-workloads-run-on-specialized-hardware
+Supervised learning workloads run on specialized hardware including IPU, TPU, VPU, memristors, and SpiNNaker.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Supervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Supervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-supervised-max-margin-models
+Support vector machines are supervised max-margin models used for classification and regression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-support-vector-clustering-unsupervised-variant
+Support vector clustering is an unsupervised SVM variant introduced by Siegelmann and Vapnik that applies SVM statistics to unlabeled data for cluster discovery.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-grounded-in-vc-theory-generalization-bounds
+SVMs are grounded in Vapnik-Chervonenkis theory, which provides generalization bounds based on margin and VC dimension.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-is-perceptron-optimal-stability
+An SVM can be viewed as the perceptron of optimal stability, i.e., the perceptron that maximizes margin.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-extends-to-structured-output-spaces
+SVMs extend to structured output spaces via structured SVMs for tasks such as sequence labeling.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-applications-include-text-image-handwriting-protein-satellite
+SVM applications include text categorization, image classification, handwriting recognition, protein classification, and satellite data analysis.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-canonical-kernel-method-application
+SVMs are the canonical application of kernel methods, and the same kernels apply to kernel PCA and kernel ridge regression.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-decision-function-forms-linear-kernelized
+The linear SVM decision function is sgn(w^T x - b), and the kernelized decision function is sgn(sum_i alpha_i y_i k(x_i, x) - b).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-polynomial-kernel-homogeneous-inhomogeneous
+Polynomial SVM kernels can be homogeneous k(x_i,x_j)=(x_i·x_j)^d or inhomogeneous k(x_i,x_j)=(x_i·x_j+r)^d.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-kernels-must-satisfy-mercer-positive-semidefinite
+SVM kernel functions must satisfy Mercer's condition (positive semi-definiteness).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-bias-term-sign-convention-varies
+The SVM bias term convention varies across literature: some formulations use w^T x - b = 0, while others use w^T x + b = 0.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-kernel-trick-connects-to-rkhs
+The kernel trick connects SVMs to the theory of Reproducing Kernel Hilbert Spaces (RKHS).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-dual-objective-constraints
+The SVM dual formulation maximizes sum_i c_i - (1/2) sum_i sum_j y_i c_i (x_i^T x_j) y_j c_j subject to sum_i c_i y_i = 0 and 0 <= c_i <= 1/(2n lambda).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-dual-coefficients-support-vector-cases
+In the SVM dual, points correctly classified beyond the margin have c_i = 0, points on the margin boundary have 0 < c_i < 1/(2n lambda), and support vectors are points with c_i > 0.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-lagrangian-dual-strong-duality
+The SVM dual formulation is derived via the Lagrangian dual of the primal constrained problem, and strong duality holds.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-coordinate-descent-adjusts-dual-then-projects
+Coordinate descent for SVMs iteratively adjusts each c_i in the direction of the partial derivative and then projects back onto the feasible set.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] expected-risk-requires-joint-distribution
+Expected risk ε(f)=E[ℓ(y,f(X))] is the ideal quantity to minimize but requires knowing the joint distribution of (X,y), which is typically unknown.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] empirical-risk-approximates-expected-risk
+Empirical risk ε̂(f)=(1/n)Σℓ(y_k,f(X_k)) approximates expected risk using training data; minimizing it is the empirical risk minimization strategy.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] erm-convergence-conditions
+Under assumptions such as data generated by a finite Markov process and a sufficiently small hypothesis space, the empirical risk minimizer converges to the expected risk minimizer as n grows.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] erm-tikhonov-unifies-svm-least-squares-logistic
+SVM with hinge loss, regularized least-squares with square loss, and logistic regression with log-loss are all empirical risk minimization with Tikhonov regularization and differ only in loss function choice.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-kernel-choice-determines-hypothesis-space-richness
+The choice of SVM kernel (e.g., Gaussian/RBF with parameter gamma) determines the richness of the hypothesis space and directly affects SVM convergence properties.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-other-multiclass-strategies-dagsvm-ecoc
+Other multiclass SVM strategies include DAGSVM (directed acyclic graph) and error-correcting output codes, in addition to Crammer-Singer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] least-squares-svm-suykens-vandewalle
+Least-Squares SVM (LS-SVM) is a variant proposed by Suykens and Vandewalle.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bayesian-svm-data-augmentation-wenzel-vi-svi
+Bayesian SVM (Polson & Scott, 2011) interprets the SVM as a graphical model via data augmentation, and scalable variational inference versions (VI and SVI) were developed by Wenzel in 2017.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-preprocessing-minmax-decimal-zscore
+Common SVM data preprocessing methods include min-max scaling, decimal scaling, and Z-score standardization.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svr-primal-formulation-epsilon-tube
+The SVR primal formulation minimizes (1/2)||w||² subject to |y_i - <w, x_i> - b| <= epsilon for all training samples.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-toolkits-list
+SVM toolkits include LIBSVM, LIBLINEAR, scikit-learn, MATLAB, SAS, SVMlight, kernlab (R), Shogun, Weka, Shark, and OpenCV.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-interior-point-solves-kkt-conditions
+Interior-point methods solve the SVM optimization problem by directly solving the KKT conditions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] relevance-vector-machines-probabilistic-sparse-kernel-counterpart
+Relevance vector machines are the probabilistic sparse-kernel counterpart to SVMs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-potential-function-method-1964-underpins-kernel-trick
+Aizerman, Braverman, and Rozonoer (1964) established the theoretical foundations of the potential function method, which underpins the kernel trick.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-least-squares-suykens-1999
+Suykens and Vandewalle (1999) proposed Least Squares SVM.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-support-vector-clustering-ben-hur-2001
+Ben-Hur, Horn, Siegelmann, and Vapnik (2001) extended SVMs to unsupervised clustering as Support Vector Clustering.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-bayesian-data-augmentation-polson-2011
+Polson and Scott (2011) introduced data augmentation for Bayesian SVMs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-perceptron-mlp-links-collobert-2004
+Collobert and Bengio (2004) showed structural links between perceptrons, MLPs, and SVMs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-dual-coordinate-descent-hsieh-2008
+Hsieh et al. (2008) introduced Dual Coordinate Descent, an efficient solver for large-scale linear SVMs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sklearn-svm-module-provides-svc-svr-linearsvc
+scikit-learn's sklearn.svm module provides SVC, SVR, and LinearSVC implementations.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-applied-chemistry-ivanciuc-2007
+Ivanciuc (2007) applied SVMs to chemistry.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-applied-epidemiology-fradkin-muchnik-2006
+Fradkin and Muchnik (2006) applied SVMs to epidemiology.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-light-joachims-text-classification
+SVM-light is Joachims' SVM implementation historically important for text classification benchmarks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svmjs-javascript-interactive-demo
+SVMJS is a JavaScript SVM implementation with an interactive GUI demo.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] liblinear-faster-than-kernel-svm-high-dimensional-sparse
+LIBLINEAR is much faster than kernel SVMs on high-dimensional sparse data.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] islr-james-2013-svm-intro
+James et al. (2013) provided an introductory treatment of SVMs in ISLR.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] svm-pattern-recognition-theodoridis-2009
+Theodoridis and Koutroumbas (2009) treat SVMs within pattern recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Support_vector_machine-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Support_vector_machine
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-domain-feature-space-probability
+In transfer learning, a domain consists of a feature space X and a marginal probability distribution P(X).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-task-label-space-predictive-function
+In transfer learning, a task consists of a label space Y and an objective predictive function f: X → Y.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] positive-transfer-improves-target-performance
+Positive transfer occurs when source domain knowledge improves target task performance.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-related-cost-sensitive-multi-objective
+Transfer learning is related to cost-sensitive machine learning and multi-objective optimization due to its use of multiple objective functions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-task-learning-simultaneous-vs-transfer-sequential
+Multi-task learning trains on all tasks simultaneously, unlike transfer learning which transfers sequentially.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] zero-shot-learning-no-target-labeled-data
+Zero-shot learning is an extreme case of transfer learning where no target-domain labeled data is available.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-cnns-most-common-vision
+Neural networks, especially CNNs, are the most common architectures used for transfer learning in computer vision.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transfer-learning-markov-logic-bayesian-networks
+Transfer learning algorithms exist for Markov logic networks and Bayesian networks, not just neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bozinovski-1981-teaching-space-transfer
+Bozinovski (1981) introduced the 'teaching space' concept for adaptive pattern classification, formalizing how learned representations could transfer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pratt-1992-discriminability-based-transfer
+Pratt (1992) introduced discriminability-based transfer, one of the first formal methods for transferring knowledge between neural networks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] zhuang-2019-transfer-learning-survey
+Zhuang et al. (2019) published a comprehensive updated survey of transfer learning reflecting the deep learning era.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] thrun-pratt-learning-to-learn-isbn
+Thrun and Pratt's Learning to Learn textbook has ISBN 978-1-4615-5529-2.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] karimpanal-2019-transfer-rl-self-organizing-maps
+Karimpanal and Bouffanais (2019) extended transfer learning to reinforcement learning via self-organizing maps.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] niculescu-mizil-2007-bayesian-network-transfer
+Niculescu-Mizil and Caruana (2007) applied transfer to Bayesian network structure learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mihalkova-2007-markov-logic-transfer
+Mihalkova et al. (2007) demonstrated transfer learning in Markov logic networks by mapping and revising relational structures.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lin-jung-2017-conditional-transfer-learning
+Lin and Jung (2017) introduced conditional transfer learning to address when and how to selectively transfer, important for avoiding negative transfer in brain-computer interfaces.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transfer_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transfer_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-introduced-attention-is-all-you-need-2017
+The transformer architecture was introduced in the 2017 paper 'Attention Is All You Need' by Google researchers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-token-embedding-pipeline
+Transformer text processing tokenizes text into numerical representations and maps each token to a vector via a word embedding lookup table.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-context-window-defines-token-scope
+The transformer's context window defines the scope within which tokens are contextualized with each other via attention.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-builds-on-bahdanau-attention
+The transformer builds on Bahdanau attention for machine translation but makes attention the sole mechanism rather than an add-on to recurrence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-multi-head-concatenation-formula
+Multi-head attention output is computed as Concat(head_1, ..., head_h) W^O, where each head_i = Attention(Q W_i^Q, K W_i^K, V W_i^V).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-original-application-machine-translation
+The original application of transformers was machine translation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-chess-game-playing
+Transformers have been applied to game-playing, including chess.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] elman-networks-vanishing-gradient-long-sequences
+Plain RNNs such as Elman networks (1990) could not propagate information effectively over long sequences due to the vanishing gradient problem.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] gru-lstm-equivalent-seq2seq
+GRUs were shown to be neither better nor worse than LSTMs for seq2seq tasks.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] seq2seq-fixed-vector-bottleneck-reversing-input
+Early encoder-decoder seq2seq models compressed the entire input into a fixed-size vector, degrading quality on long inputs, and reversing input sentences improved translation quality.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] decomposable-attention-no-recurrence
+Decomposable attention (2016) applied self-attention to feedforward networks and achieved SOTA on textual entailment with 10x fewer parameters, demonstrating attention could work without recurrence.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] fast-weight-controllers-equivalent-linear-transformer
+Fast weight controllers (1992) were later shown to be equivalent to the unnormalized linear transformer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] learning-rate-warmup-2-percent
+The original transformer paper recommended linearly scaling learning rate from 0 to max over about 2% of total training steps, then decaying.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-four-primary-components
+All transformers have four primary components: tokenizer, embedding layer, transformer layers with attention and feedforward, and un-embedding layer.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tokenization-three-step-process
+Tokenization is a three-step process: preprocessing or pretokenization, tokenization into vocabulary tokens, and integer ID assignment.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unk-token-unknown-string-stand-in
+The [UNK] token is a special vocabulary token used as a stand-in for any string not in the vocabulary.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] embedding-lookup-one-hot-matrix
+Embedding converts integer token IDs into dense vectors via a lookup table, equivalent to multiplying a one-hot vector by an embedding matrix M.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unembedding-softmax-linear-vocab-projection
+Un-embedding converts final vector representations to a token probability distribution via a linear layer plus softmax, UnEmbed(x)=softmax(xW+b), with matrix shape (d_emb, |V|).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ffn-two-layer-mlp-per-position
+The transformer feedforward network is a 2-layer MLP applied per position, FFN(x)=phi(xW^(1)+b^(1))W^(2)+b^(2), where phi is the activation function.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tokenizer-software-tokenizers-sentencepiece
+Hugging Face tokenizers (Python/Rust) and sentencepiece (Python/C++) are key tokenization software implementations, and sentencepiece can process entire sentences as pretokens.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] layernorm-per-token-not-batch
+LayerNorm in transformers is applied individually to each vector per token, normalizing across features within a single example rather than across a batch.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ffn-layernorm-per-position-independent
+Feedforward and LayerNorm are applied independently to each position or vector with no cross-token interaction.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] final-layernorm-after-pre-ln-layers
+In the pre-LN convention, a final LayerNorm is applied after all encoder or decoder layers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] google-translate-2020-transformer-encoder-rnn-decoder
+Google Translate (2020) used a transformer encoder plus RNN decoder for speed because transformer decoders did not improve quality enough to justify the latency cost.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-4.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] scalenorm-fixnorm-layernorm-alternatives
+ScaleNorm and FixNorm are alternative normalizations that can replace LayerNorm in transformers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] pagedattention-pages-kv-cache
+PagedAttention applies memory paging to KV caches.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] disaggregated-inference-separates-prefill-decode
+Disaggregated inference separates prefilling and decoding onto different hardware.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] flashattention2-head-dim-256-mqa-gqa
+FlashAttention-2 supports head dimensions up to 256 and supports MQA and GQA.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] flashattention4-targets-blackwell-pipelining
+FlashAttention-4 targets Blackwell GPUs with pipelining.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] mqa-neutral-quality-training-faster-inference
+Multi-Query Attention (MQA) has a neutral effect on quality and training speed but faster inference.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] multi-token-prediction-iterative-blocks
+Multi-Token Prediction produces an embedding in a single forward pass that is iteratively processed by additional transformer blocks to predict multiple future tokens, trading accuracy for speed.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] random-feature-attention-linear-time-fourier
+Random Feature Attention approximates softmax attention in linear time using Fourier random features and kernel decomposition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-5.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformers-foundation-major-llms
+Transformers are the foundational architecture behind major large language models including GPT-2/3/4, Claude, BERT, Grok, Gemini, XLNet, RoBERTa, and ChatGPT.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-nlp-applications-list
+Transformer NLP applications include machine translation, time series prediction, document summarization, document generation, named entity recognition, code generation from natural language, and speech-to-text.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-non-nlp-applications-list
+Transformers have been applied beyond NLP to disaster response, biological sequence analysis, video understanding, protein folding, and chess position evaluation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] perceiver-multimodal-transformer-variant
+Perceiver is a transformer variant designed specifically for multimodal data with cross-domain input.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] vision-transformer-adapts-text-to-images
+Vision Transformer (ViT) adapts the transformer architecture from text to image processing.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-6.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] lstm-gru-dominant-before-transformers
+LSTMs (1997) and GRUs (2014) were the dominant sequence models before Transformers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] bert-deployed-google-search-2020
+By 2020 BERT was deployed in nearly every English Google Search query.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] conformer-combines-convolutions-transformers-speech
+Conformer (Gulati et al., 2020) combined convolutions with Transformers for speech recognition.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] ul2-unifies-masked-causal-prefix-lm
+UL2 (Tay et al., 2023) unified masked, causal, and prefix language modeling paradigms.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] performers-linear-attention-random-features
+Performers (Choromanski et al., 2020) proposed linear-complexity attention via random feature approximation.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] rwkv-linear-complexity-rnn-revival
+RWKV (Peng et al., 2023) reinvented RNNs for the Transformer era with linear complexity.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tensor2tensor-google-transformer-library
+Tensor2Tensor is Google's open-source library for Transformer research (Kaiser 2017; Vaswani et al., 2018).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] layer-normalization-pre-ln-post-ln-xiong-2020
+Xiong et al. (2020) studied Pre-LN versus Post-LN layer normalization placement in Transformer architecture.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-7.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] google-neural-network-lineage-inception-to-gato
+Google's neural network lineage is Inception (2014) → WaveNet (2016) → MobileNet (2017) → Transformer (2017) → EfficientNet (2019) → Gato (2022).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] annotated-transformer-harvard-nlp-pytorch-walkthrough
+The Annotated Transformer (Harvard NLP, 2018) is a line-by-line PyTorch implementation walkthrough of the original Transformer paper.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] formal-algorithms-transformers-phuong-hutter-2022
+Phuong & Hutter (2022, arXiv:2207.09238) published pseudocode-level formal algorithms for Transformers.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-inner-workings-primer-ferrando-2024
+Ferrando et al. (2024, arXiv:2405.00208) published a mechanistic interpretability primer on the inner workings of Transformer-based language models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-inference-engines-vllm-llamacpp-tensorrt-sglang
+Transformer inference engines include vLLM, llama.cpp, TensorRT-LLM, and SGLang.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-applications-include-rag-and-agent2agent-mcp
+The Transformer-powered application layer includes RAG systems and multi-agent protocols MCP and Agent2Agent.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] raschka-2026-big-llm-architecture-comparison
+Raschka (2026) published 'The Big LLM Architecture Comparison' comparing modern LLM architectures from DeepSeek V3 to GLM-5.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] transformer-underlies-modern-llm-families
+The Transformer is the foundation for GPT, Claude, Gemini, Llama, Mistral/Mixtral, Qwen, and DeepSeek model families.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Transformer_deep_learning_architecture-chunk-8.md
+- Source URL: https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unsupervised-data-collection-cheaper-than-supervised
+Unsupervised datasets can be harvested cheaply at scale (e.g., Common Crawl), whereas supervised datasets require expensive manual construction (e.g., ImageNet).
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] generative-unsupervised-task-remove-and-infer
+A common unsupervised generative task pattern is to remove part of a datapoint and require the model to infer the removed part, as in denoising autoencoders and BERT masked language modeling.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoders-produce-feature-representations-latent-diffusion
+Autoencoders trained unsupervised produce feature representations used as components in other models such as latent diffusion models.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] kmeans-canonical-clustering-pca-canonical-dimensionality-reduction
+k-means is the canonical unsupervised clustering example and PCA is the canonical unsupervised dimensionality reduction example.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] unsupervised-dimensionality-reduction-algorithms-include-pca-tsne-ica-lda-nmf
+Unsupervised dimensionality reduction algorithms include PCA, t-SNE, ICA, LDA, NMF, factor analysis, and CCA.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] image-recognition-trajectory-supervised-hybrid-supervised
+Image recognition historically moved from supervised methods to hybrid unsupervised pretraining and back to supervised methods with dropout, ReLU, and adaptive learning rates.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] discriminative-tasks-tend-supervised-generative-tend-unsupervised
+Discriminative tasks such as recognition tend toward supervised methods, while generative tasks such as imagination tend toward unsupervised methods, though the boundary is blurred.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-1.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] boltzmann-state-probability-energy-partition-function
+In Boltzmann machines, the probability of an activation state a is p(a)=e^{-E(a)}/Z, where Z is the partition function summing over all possible activation patterns.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] harmony-is-negative-energy
+Smolensky's term 'harmony' is the negative of energy (-E); networks seek low energy or high harmony.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hopfield-networks-inspired-by-ferromagnetism-cam
+Hopfield networks are inspired by ferromagnetism, use binary neurons with symmetric connections, converge to stable patterns, and are used as content-addressable memories.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] boltzmann-machines-stochastic-hopfield-hidden-visible
+Boltzmann machines are stochastic Hopfield nets with hidden and visible layers; symmetric weights allow energy-based analysis, but lateral connections make training difficult.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] autoencoders-deterministic-less-robust-than-vae
+Autoencoders are feedforward three-layer networks learning compressed internal representations; they are deterministic and less robust than VAEs.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] sigmoid-belief-networks-explaining-away
+Sigmoid Belief Networks (Neal, 1992) are sparsely connected directed acyclic graphs of binary stochastic neurons and suffer from the 'Explaining Away' problem.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] hebbian-learning-coincidence-no-error
+Hebbian learning reinforces connections based on coincident activation ('neurons that fire together wire together') rather than error signals.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] adaptive-resonance-theory-vigilance-parameter
+Adaptive Resonance Theory (ART) allows variable cluster counts controlled by a vigilance parameter.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-2.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] cluster-analysis-no-feedback-shared-attributes
+Cluster analysis groups unlabeled data by identifying commonalities without responding to feedback, reacting to presence or absence of shared attributes.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] density-estimation-central-unsupervised-application
+Density estimation is a central statistical application of unsupervised learning.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] topic-modeling-observed-words-latent-topic
+In topic modeling, words are observed variables while the topic is a latent variable.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] method-of-moments-mean-first-covariance-second-tensors-higher
+Method of moments relates model parameters to moments: mean vector is first order, covariance matrix is second order, and higher-order moments use tensors.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+### [ACCEPT] tensor-decomposition-recovers-latent-variable-parameters
+Tensor decomposition techniques consistently recover parameters of a large class of latent variable models under certain assumptions.
+- Source: /home/forge/workspace/entries/2026/06/21/wiki-Unsupervised_learning-chunk-3.md
+- Source URL: https://en.wikipedia.org/wiki/Unsupervised_learning
+- Model: openai:rits/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
